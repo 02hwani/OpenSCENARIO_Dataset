@@ -1,0 +1,651 @@
+﻿description,code
+runs at an initial entry speed of 1m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""20"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""1"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at $EgoVehicle_StartSpeedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$EgoVehicle_StartSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs with target speed set to $ChallengingVehicle_StartSpeedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$ChallengingVehicle_StartSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is equipped with running speed of 28.0m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""28.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+drives at an initial entry speed of 40.0m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""40.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is running at an initial entry speed of 7.0 m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""7.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at a constant speed of 12.0m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""12.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at a speed of ${$EgoSpeed ​​/ 3.6}m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$EgoSpeed / 3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at a constant speed with an initial entry speed of ${$TargetSpeed ​​/ 3.6}m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$TargetSpeed / 3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+drives at an initial speed of $EgoSpeedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$EgoSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+maintains driving speed at the specified speed of $TargetSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$TargetSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving with the target speed set to 10 m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""10"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at a designated speed of 15m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""15"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at a speed of 30m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""30"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is in progress with the target speed set to 20m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""20"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+drives at an initial entry speed of 25 m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""25"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at a specified speed of 3m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""1"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""3"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at a speed of 1m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""1"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""1"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at a constant speed with an initial speed of 30 m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""30"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at an initial entry speed of 15.0 m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""15.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+drives with the target speed set to 30m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""30"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is equipped with running mode at 0m/s initial speed,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at the initial entry speed of $speedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""5.0"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is running at initial entry speed $A1_speedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$A1_speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at constant speed with the same displacement based on the target reference object A1.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""A1"" value=""0"" speedTargetValueType=""delta"" continuous=""false"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at a speed of 40.0m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""40.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is traveling with the same speed and displacement based on the target reference object A4.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""A4"" value=""0.0"" continuous=""true"" speedTargetValueType=""delta"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+drives with the target speed set to 12m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""12"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at an initial speed of 25.0m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""25.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+travels at the same speed as the A4 object,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""A4"" value=""0.0"" speedTargetValueType=""delta"" continuous=""true"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is equipped with a running speed of ${$Speed ​​/ 3.6}m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$Speed / 3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at a constant speed with an initial entry speed of 15 m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""15"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is equipped with a running system with a multiplied speed ratio of 1.3 times that of the central target Target1,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Target1"" value=""1.3"" speedTargetValueType=""factor"" continuous=""true"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at a speed of 25m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""cubic"" value=""4"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""25"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is running at a multiplied speed ratio of 1.4 times that of the central target Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Ego"" value=""1.4"" speedTargetValueType=""factor"" continuous=""true"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+it is driving at the initial entry speed of $HostSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$HostSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is driving at the initial entry speed of $NPCInitialSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$NPCInitialSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is proceeding at a speed of 50m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""50"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at a constant speed with an initial entry speed of 1 m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""1"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at an initial speed of 0.0m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at a constant speed with an initial speed of 20m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""1"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""20"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is running with target speed set to 10m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""10"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is driving with target speed set to $EgoSpeedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$EgoSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+drives at an initial entry speed of 0 m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts driving at a constant speed of 13.889m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0.0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""13.889"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at a speed of ${$DefaultSpeed ​​* 0.8}m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$DefaultSpeed * 0.8}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is driving at an initial speed of $DefaultSpeedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$DefaultSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+sets the target speed to 16m/s and drive,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""1"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""16"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving with the target speed set to 30m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""1"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""30"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at a speed of 5m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""linear"" value=""5"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""5"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is proceeding at a specified speed of ${50/3.6}m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${50/3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+has an initial entry speed of ${30/3.6}m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${30/3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is running with target speed set to $InitialSpeedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$InitialSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is running at $_Ego_speedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$_Ego_speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is progressing at an initial speed of $_GVT_speedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$_GVT_speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+starts constant speed driving by setting the target speed to $_GVT_init_speedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$_GVT_init_speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is driving at initial entry speed $_Target_init_speedm/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$_Target_init_speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+drives with the target speed set to 3m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""15.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""3"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is running at an initial speed of 2m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""15.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""2"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is in progress with the target speed set to 5m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""15.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""5"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+runs at a specified speed of 16.6666m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""16.6666"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is moving at a speed of 22.222222m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""22.222222"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+sets the driving speed at ${$Ego_InitSpeed_Ve0_kph / 3.6}m/s,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$Ego_InitSpeed_Ve0_kph / 3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is progressing with displacement at the same speed based on the target reference object Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Ego"" value=""0"" speedTargetValueType=""delta"" continuous=""false"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+is progressing at a difference of ${$CutInVehicle_RelativeInitSpeed_Ve0_Vo0_kph / 3.6}m/s compared to the Ego object.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" dynamicsDimension=""time"" value=""0"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Ego"" value=""${$CutInVehicle_RelativeInitSpeed_Ve0_Vo0_kph / 3.6}"" speedTargetValueType=""delta"" continuous=""false"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"

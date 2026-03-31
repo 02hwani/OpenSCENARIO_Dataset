@@ -1,0 +1,1935 @@
+﻿description,code
+"When the vehicle enters the range (140, 55)","<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""vehicle"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""1.0"">
+        <Position>
+          <WorldPosition x=""140"" y=""55"" z=""0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If adversary is stopped for 1 second,"<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""adversary"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <StandStillCondition duration=""1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When a step in the 'PedestrianStartsWalking' action is completed,"<Condition name=""AfterPedestrianWalks"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""PedestrianStartsWalking"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+If the vehicle is stopped for 0.1 seconds,"<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""vehicle"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <StandStillCondition duration=""0.1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+PedestrianStopsAndWaits When the action has completed,"<Condition name=""AfterPedestrianStopsAndWaits"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""PedestrianStopsAndWaits"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+If it stops for 0.1 second,"<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""adversary"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <StandStillCondition duration=""0.1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+PedestrianStartsWalkingAway When the action is complete,"<Condition name=""AfterPedestrianStartsWalking"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""PedestrianStartsWalkingAway"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 0 seconds or more,"<Condition name=""OverallStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+20.0 seconds after starting simulation,"<Condition name=""EndCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""20.0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+20 seconds after starting simulation,"<Condition name=""WeatherChangeStartTime"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""20"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 10000000 seconds have passed since start,"<Condition name=""DummyManeuverStartTime"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""10000000"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 5 seconds or more,"<Condition name=""StartTime"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""5"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the straight-line distance between the hero and the object adversary reaches the displacement area of ​​14.0m or less,"<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""adversary"" relativeDistanceType=""cartesianDistance"" value=""14.0"" freespace=""false"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the CyclistStartsWalking action is completed,"<Condition name=""AfterCyclistStartsWalking"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""CyclistStartsWalking"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+If hero stops for 0.1 seconds,"<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <StandStillCondition duration=""0.1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+CyclistStopsAndWaits When the operation has completed,"<Condition name=""AfterCyclistStopsAndWaits"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""CyclistStopsAndWaits"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the CyclistStartsWalkingAway event has completed,"<Condition name=""AfterCyclistStartsWalking"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""CyclistStartsWalkingAway"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+If it drives a total of 10.0m,"<Condition name=""OverallStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""10.0"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it moves 200.0m,"<Condition name=""EndCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""200.0"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If the parameter distance_success is 100,"<Condition name=""criteria_DrivenDistanceTest"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""distance_success"" value=""100"" rule=""lessThan"" />
+  </ByValueCondition>
+</Condition>"
+When narrowed down to adversary and below 40.0m,"<Condition name=""StartConditionLeadingVehicleKeepsVelocity"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""adversary"" relativeDistanceType=""longitudinal"" value=""40.0"" freespace=""true"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'LeadingVehicleKeepsVelocity' enters the end phase.,"<Condition name=""AfterLeadingVehicleKeepsVelocity"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""LeadingVehicleKeepsVelocity"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+If hero runs 1.0m,"<Condition name=""OverallStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""1.0"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+0 seconds after simulation start,"<Condition name=""StartTime"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0"" rule=""equalTo"" />
+  </ByValueCondition>
+</Condition>"
+"When the hero approaches the adversary within a longitudinal distance of 20.0m or less,","<Condition name=""StartConditionLeadingVehicleKeepsVelocity"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""adversary"" relativeDistanceType=""longitudinal"" value=""20.0"" freespace=""true"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+0.1 seconds after starting simulation,"<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0.1"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When hero travels 0.1m,"<Condition name=""OverallStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""0.1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the straight-line distance between the hero and the object adversary reaches the displacement area of ​​40.0m or less,"<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""adversary"" relativeDistanceType=""cartesianDistance"" value=""40.0"" freespace=""false"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+AdversaryAccelerates when the action is complete,"<Condition name=""AfterAdversaryAccelerates"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""AdversaryAccelerates"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the straight-line distance between the hero and the object adversary reaches the displacement area of ​​20.0m or less,"<Condition name=""StartConditionLeadingVehicleKeepsVelocity"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""adversary"" relativeDistanceType=""cartesianDistance"" value=""20.0"" freespace=""false"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If hero travels 20000.0m,"<Condition name=""EndCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""20000.0"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When hero enters the range of x:140, y:55","<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""2.0"">
+        <Position>
+          <WorldPosition x=""140"" y=""55"" z=""0"" h=""180"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+120.0 seconds after simulation start,"<Condition name=""OverallStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""120.0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+After 120.0 seconds,"<Condition name=""EndCondition"" delay=""1"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""120.0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When system argument distance_success is < 70,"<Condition name=""criteria_DrivenDistanceTest"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""distance_success"" value=""70"" rule=""lessThan"" />
+  </ByValueCondition>
+</Condition>"
+When the adversary travels 10m,"<Condition name=""AfterLeadingVehicleTravel"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""adversary"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""10"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the adversary travels 20m,"<Condition name=""AfterLeadingVehicleTravel"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""adversary"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""20"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"x:92.5, y:91 when the target is within 52m","<Condition name=""StartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <DistanceCondition value=""52"" freespace=""false"" alongRoute=""false"" rule=""lessThan"">
+        <Position>
+          <WorldPosition x=""92.5"" y=""91"" z=""0.2"" h=""-1.56"" />
+        </Position>
+      </DistanceCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When the hero approaches the adversary at a longitudinal distance of 35.0m or more,","<Condition name=""StartConditionLeadingVehicleKeepsVelocity"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""hero"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""adversary"" relativeDistanceType=""longitudinal"" value=""35.0"" freespace=""true"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When the EgoVehicle approaches a longitudinal distance of $Maneuver_TriggerDistancem from the ChallengingVehicle,","<Condition name=""BrakingTrigger"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""EgoVehicle"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""ChallengingVehicle"" relativeDistanceType=""longitudinal"" value=""$Maneuver_TriggerDistance"" freespace=""false"" rule=""$Maneuver_TriggerRule"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+0.0 seconds after starting simulation,"<Condition name=""ChallengingVehicle_BrakingAct_StartTrigger"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0.0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When $Simulation_StopTime seconds have passed since the simulation started,"<Condition name=""SimulationEnd"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""$Simulation_StopTime"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 1 second has passed since starting,"<Condition name=""SwerveTrigger1"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""1"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the action step 'ChallengingVehicle_SwerveAction1' enters the end step,"<Condition name=""SwerveTrigger2"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""ChallengingVehicle_SwerveAction1"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+ChallengingVehicle_SwerveAction2 When the action enters the termination phase.,"<Condition name=""SwerveTrigger3"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""ChallengingVehicle_SwerveAction2"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the stage of the 'ChallengingVehicle_SwerveAction3' event enters the end stage,"<Condition name=""SwerveTrigger4"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""ChallengingVehicle_SwerveAction3"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+ChallengingVehicle_SwerveAction4 When the action enters the termination phase.,"<Condition name=""SwerveTrigger5"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""ChallengingVehicle_SwerveAction4"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the action step 'ChallengingVehicle_SwerveAction5' enters the end step,"<Condition name=""SwerveTrigger6"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""ChallengingVehicle_SwerveAction5"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When ${$entity_name + trajectory event} event is completed,"<Condition name=""${$entity_name + straigening trigger}"" delay=""0.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""${$entity_name + trajectory event}"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When more than 0.0 seconds have passed since starting,"<Condition name=""act_start"" delay=""0.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0.0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+10.0 seconds after starting simulation,"<Condition name=""endtrigger"" delay=""0.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""10.0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When it gets closer to Ego within 2m,"<Condition name=""Target_distance"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Target"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition value=""2"" freespace=""true"" entityRef=""Ego"" rule=""greaterThan"" relativeDistanceType=""longitudinal"" coordinateSystem=""entity"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When Ego shows 0.0 second headway behind Target,"<Condition name=""Target_headway"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""Target"" value=""0.0"" relativeDistanceType=""longitudinal"" coordinateSystem=""road"" freespace=""true"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the target act action is completed,"<Condition name=""endtrigger"" delay=""3.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""target act"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When Target physically collides with an Ego object,"<Condition name=""target_collision_condition"" delay=""0.5"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Target"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <CollisionCondition>
+        <EntityRef entityRef=""Ego"" />
+      </CollisionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When more than $LaneChange1Time seconds have passed since starting,"<Condition name=""LaneChange1Condition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""$LaneChange1Time"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+$LaneChange2Time seconds after simulation start,"<Condition name=""LaneChange2Condition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""$LaneChange2Time"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When $BrakeTime seconds have passed since the simulation started,"<Condition name=""BrakeCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""$BrakeTime"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than $AccelerateTime seconds have passed since startup,"<Condition name=""BrakeCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""$AccelerateTime"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When $Brake2Time seconds have passed since the simulation started,"<Condition name=""Brake2Condition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""$Brake2Time"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+2 seconds after starting simulation,"<Condition name=""EgoSpeedCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""2"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+10 seconds after starting simulation,"<Condition name=""EgoSpeedCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""10"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 0 seconds have passed since starting,"<Condition name=""CutInActStart"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the 'TargetBrake2Event' operation stage enters the end stage,"<Condition name=""StopCondition"" delay=""12"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""TargetBrake2Event"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'TargetBrake2Event' enters the termination phase,"<Condition name=""ActStopCondition"" delay=""7"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""TargetBrake2Event"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+2.0 seconds after starting simulation,"<Condition name=""LaneChange1Condition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""2.0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+LaneChange1Event When the action is in the starting phase,"<Condition name=""BrakeCondition"" delay=""$TargetBrakeTime"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""LaneChange1Event"" state=""startTransition"" />
+  </ByValueCondition>
+</Condition>"
+TargetreduceSpeedEvent When the event enters the termination phase,"<Condition name=""ActStopCondition"" delay=""3"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""TargetreduceSpeedEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When Ego physically collides with a Target object,"<Condition name=""CollisionCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <CollisionCondition>
+        <EntityRef entityRef=""Target"" />
+      </CollisionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+After 6 seconds,"<Condition name=""StopTrigger"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""6"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 2 seconds have passed since starting,"<Condition name=""SloppyDriverCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""2"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+10 seconds after starting simulation,"<Condition name=""InteractiveDriverLateralCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""10"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+After 20 seconds,"<Condition name=""InteractiveDriverLongitudinalCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""20"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 30 seconds have passed since starting,"<Condition name=""BetterSloppyDriverCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""30"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+40 seconds after starting simulation,"<Condition name=""DefaultControllerCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""40"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When Ego reaches within the radius tolerance of 10.0m based on the 750.0m point in lane 0,"<Condition name=""QuitWhenReachPositionCondition"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""10.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""0"" s=""750.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+After 1200 seconds,"<Condition name=""StopSimulationCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""1200"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'CutInAndBrakeAct' is the starting step,"<Condition name=""OverTakerStartSpeedCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""CutInAndBrakeAct"" state=""startTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the headway time from $owner is $HeadwayTime_LaneChange seconds,"<Condition name=""CutInStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""$owner"" value=""$HeadwayTime_LaneChange"" freespace=""false"" coordinateSystem=""road"" relativeDistanceType=""longitudinal"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When Ego shows $HeadwayTime_Brake second headway behind $owner,"<Condition name=""${BrakeCondition_HWT + _ + $HeadwayTime_Brake}"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""$owner"" value=""$HeadwayTime_Brake"" freespace=""false"" coordinateSystem=""entity"" relativeDistanceType=""longitudinal"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the CutInManeuver action enters the termination phase,"<Condition name=""StopCondition"" delay=""5"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""maneuver"" storyboardElementRef=""CutInManeuver"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the headway time from $owner is $HeadwayTime_LaneChange seconds,"<Condition name=""CutInStartCondition"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""$owner"" value=""$HeadwayTime_LaneChange"" freespace=""false"" alongRoute=""true"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the headway time from $owner is $HeadwayTime_Brake seconds,"<Condition name=""BrakeCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""$owner"" value=""$HeadwayTime_Brake"" freespace=""true"" alongRoute=""false"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'OvertakerBrakeEvent' enters the end phase.,"<Condition name=""StopCondition"" delay=""5"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""OvertakerBrakeEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When Ego shows its headway behind $owner $HeadwayTime_LaneChange seconds,"<Condition name=""CutInStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""$owner"" value=""$HeadwayTime_LaneChange"" freespace=""true"" alongRoute=""true"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When Ego shows $HeadwayTime_Brake second headway behind $owner,"<Condition name=""BrakeCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""$owner"" value=""$HeadwayTime_Brake"" freespace=""true"" alongRoute=""true"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When more than 10 seconds have passed since starting,"<Condition conditionEdge=""none"" delay=""0"" name=""simulationEndEventDone"">
+  <ByValueCondition>
+    <SimulationTimeCondition rule=""greaterThan"" value=""10"" />
+  </ByValueCondition>
+</Condition>"
+When OverTaker acceleration is 0.0m/s²,"<Condition conditionEdge=""rising"" delay=""2"" name=""simulationEndDecelerationDone"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""OverTaker"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <AccelerationCondition value=""0.0"" rule=""equalTo"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+13 seconds after starting simulation,"<Condition conditionEdge=""rising"" delay=""0"" name=""starttrigger"">
+  <ByValueCondition>
+    <SimulationTimeCondition rule=""greaterThan"" value=""13"" />
+  </ByValueCondition>
+</Condition>"
+When Ego shows 0.1 second headway behind Target1,"<Condition conditionEdge=""rising"" delay=""0.2"" name=""redtrigger"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition alongRoute=""true"" entityRef=""Target1"" freespace=""true"" rule=""greaterThan"" value=""0.1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When more than 0 seconds have passed since starting,"<Condition conditionEdge=""rising"" delay=""0"" name=""starttrigger"">
+  <ByValueCondition>
+    <SimulationTimeCondition rule=""greaterThan"" value=""0"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 40 seconds or more,"<Condition conditionEdge=""rising"" delay=""0"" name=""stop_simulation"">
+  <ByValueCondition>
+    <SimulationTimeCondition rule=""greaterThan"" value=""40"" />
+  </ByValueCondition>
+</Condition>"
+4 seconds after starting simulation,"<Condition name=""VisibilityHideForSensorsCondition"" delay=""0.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""4"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 7 seconds or more,"<Condition name=""VisibilityHideCondition"" delay=""0.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""7"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 10 seconds have passed since starting,"<Condition name=""VisibilityReappearCondition"" delay=""0.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""10"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When it reaches the 250.0m point in the first lane on the right,"<Condition name=""OverTakerStartSpeedCondition"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""2.0"">
+        <Position>
+          <LanePosition roadId=""1"" laneId=""-1"" s=""250.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'NonContinuousDistEvent' enters the termination phase.,"<Condition name=""QuitCondition"" delay=""4"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""NonContinuousDistEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 4.3 seconds or more,"<Condition name=""drop trigger"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""4.3"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 8 seconds have passed since starting,"<Condition name=""start_trigger "" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""8"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'Story' is running,"<Condition name=""FirstSpeedCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""story"" storyboardElementRef=""Story"" state=""runningState"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 6 seconds or more,"<Condition name=""LaneChangeCondition1"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""6"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 9 seconds have passed since starting,"<Condition name=""LaneChangeCondition2"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""9"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 12 seconds have passed since starting,"<Condition name=""SpeedCondition1"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""12"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+15 seconds after starting simulation,"<Condition name=""StopCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""15"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'StopEvent' is completed,"<Condition name=""StopCondition"" delay=""6"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""StopEvent"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+After 0.0 seconds,"<Condition name=""startTrigger1"" delay=""2.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0.0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding event 'Event1' enters the end stage,"<Condition name=""startTrigger2"" delay=""4"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""Event1"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+Event2 When the operation enters the end stage,"<Condition name=""startTrigger3"" delay=""2"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""Event2"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'Event3' enters the end stage,"<Condition name=""startTrigger4"" delay=""2"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""Event3"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+After 0.0 seconds,"<Condition name=""ActStartTrigger"" delay=""3.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0.0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding event 'EventSpeedChange1' enters the end stage,"<Condition name=""startTrigger6"" delay=""2"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""EventSpeedChange1"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the Act1 event enters the end stage,"<Condition name=""ActStartTrigger"" delay=""2"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""Act1"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding event 'Story' enters the end stage,"<Condition name=""StopTrigger"" delay=""10.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""story"" storyboardElementRef=""Story"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When Ego reaches within the radius tolerance of 1.0m based on the 20.0m point on the right third lane,"<Condition name=""EgoLaneChangeCondition"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""1.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""-3"" s=""20.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'Act1' is the starting step,"<Condition name=""A2DistCondition"" delay=""0.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""Act1"" state=""startTransition"" />
+  </ByValueCondition>
+</Condition>"
+"When it arrives at the 150.0m point in the second lane on the right side of the target point,","<Condition name=""StoryBoardStopCondition"" delay=""2"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""1.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""-2"" s=""150.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When Ego reaches within the radius tolerance of 1.0m based on the 20.0m point on the right third lane,"<Condition name=""EgoLaneChangeCondition"" delay=""0.0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""1.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""-3"" s=""20.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the lateral distance between A3 and object $owner reaches the displacement area below $lat_limitm,"<Condition name=""A3CloseGapStartCondition"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""A3"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""$owner"" relativeDistanceType=""lateral"" value=""$lat_limit"" freespace=""false"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When narrowed down to $owner and 30m or less,"<Condition name=""LongitudinalDistanceCondition"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""all"">
+      <EntityRef entityRef=""A3"" />
+      <EntityRef entityRef=""A2"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""$owner"" relativeDistanceType=""cartesianDistance"" value=""30"" freespace=""true"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When A3 approaches the lateral distance $lat_limitm or more from $owner,","<Condition name=""A3OpenGapStartCondition"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""A3"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""$owner"" relativeDistanceType=""lateral"" value=""$lat_limit"" freespace=""false"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding event 'EgoLaneChangeEvent' enters the end stage,"<Condition name=""QuitCondition"" delay=""5"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""EgoLaneChangeEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When LaneChangeEvent1 action is completed,"<Condition name=""LaneChangeCondition2"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""LaneChangeEvent1"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'LaneChangeEvent2' has completed,"<Condition name=""LaneChangeCondition3"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""LaneChangeEvent2"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+7 seconds after starting simulation,"<Condition name=""StopCondition"" delay=""1"" conditionEdge=""falling"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""7"" rule=""lessThan"" />
+  </ByValueCondition>
+</Condition>"
+4 seconds after starting simulation,"<Condition name=""Lane change Ego condition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""4"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+Lane change Ego event When the operation enters the end stage,"<Condition name=""EgoGoOffRoadCondition"" delay=""1"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""Lane change Ego event"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+2.5 seconds after Ego leaves the driving space,"<Condition name=""EgoGoOnRoadCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <OffroadCondition duration=""2.5"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When system argument DummyParameter is > 10,"<Condition name=""Lane change Target condition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""DummyParameter"" value=""10"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 3 seconds have passed since starting,"<Condition name=""Lane change Target condition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""3"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 0 seconds have passed since starting,"<Condition name=""CutInActStart"" delay=""0"" conditionEdge=""risingOrFalling"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'EgoGoOnRoadEvent' enters the end phase,"<Condition name=""QuitCondition"" delay=""3"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""EgoGoOnRoadEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+"When the headway (THW), which is the time-scaled headway (THW) of the relative driving distance interval between the subject (Target1) and the vehicle in front (Target2), is 0.25 seconds.","<Condition name=""CutInStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Target1"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""Target2"" value=""0.25"" freespace=""false"" alongRoute=""false"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When it arrives at 350.0m in the first lane to the right of the target point,","<Condition name=""StopTrigger"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""1.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""-1"" s=""350.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When it arrives at 50.0m in the first lane to the right of the target point,","<Condition name=""Lane change condition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""1.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""-1"" s=""50.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it waits 2.5 seconds at the end of the road,"<Condition name=""End Of Road condition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <EndOfRoadCondition duration=""2.5"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it stays 0.0 seconds at the end of the road,"<Condition name=""End Of Road condition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <EndOfRoadCondition duration=""0.0"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the lane change act operation is completed,"<Condition name=""QuitCondition"" delay=""4"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""Lane change act"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+Lane change act 2 When the operation is completed,"<Condition name=""QuitCondition"" delay=""8"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""Lane change act 2"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When narrowed down to OverTaker and 10m or more.,"<Condition name=""Lane change"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""OverTaker"" relativeDistanceType=""longitudinal"" value=""10"" freespace=""true"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the lane change event enters the end stage,"<Condition name=""QuitCondition"" delay=""4"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""Lane change"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When LTAPActNPC operation is in the startup phase,"<Condition name=""SyncConditionNPC"" delay=""0.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""LTAPActNPC"" state=""startTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the SyncEvent action is completed,"<Condition name=""DoneCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""SyncEvent"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When NPC speed matches $NPCFinalSpeedm/s,"<Condition name=""QuitCondition"" delay=""4"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""NPC"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <SpeedCondition rule=""equalTo"" value=""$NPCFinalSpeed"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+0 seconds after simulation start,"<Condition name=""StartTrigger"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When Ego travels 5m,"<Condition conditionEdge=""rising"" delay=""0"" name=""ped_walk_event"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""5"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the collision time with pedestrian_adult is within 1.2 seconds,"<Condition name=""brake_Condition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeToCollisionCondition value=""1.2"" freespace=""true"" coordinateSystem=""entity"" relativeDistanceType=""longitudinal"" rule=""lessThan"">
+        <TimeToCollisionConditionTarget>
+          <EntityRef entityRef=""pedestrian_adult"" />
+        </TimeToCollisionConditionTarget>
+      </TimeToCollisionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When pedestrian_adult enters the 3rd lane on the right, within the range of 0m","<Condition name=""QuitCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""pedestrian_adult"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""5.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""-3"" s=""0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When Ego travels 1m,"<Condition conditionEdge=""rising"" delay=""0"" name=""ped_walk_event"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it collides with pedestrian_adult,"<Condition conditionEdge=""rising"" delay=""0"" name=""ped_fall_condition"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <CollisionCondition>
+        <EntityRef entityRef=""pedestrian_adult"" />
+      </CollisionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'be_still_action' enters the end stage,"<Condition conditionEdge=""rising"" delay=""0.8"" name=""ped_raise_condition"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""be_still_action"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding event 'raise_action' has completed,"<Condition name=""QuitCondition"" delay=""3"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""raise_action"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When Ego enters the 20m range of the first lane on the right,"<Condition name=""AquirePosition condition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""2.0"">
+        <Position>
+          <LanePosition roadId=""197"" laneId=""-1"" offset=""0"" s=""20"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When Ego enters the range of 10m in the first lane,","<Condition name=""Stop condition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""2.0"">
+        <Position>
+          <LanePosition roadId=""230"" laneId=""1"" offset=""0"" s=""10"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+Stop event When the event completes,"<Condition name=""QuitCondition"" delay=""4"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""Stop event"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the collision time with the lead reaches within 2.7 seconds,"<Condition name=""brake_Condition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""$owner"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeToCollisionCondition value=""2.7"" freespace=""false"" alongRoute=""true"" rule=""lessThan"">
+        <TimeToCollisionConditionTarget>
+          <EntityRef entityRef=""Lead"" />
+        </TimeToCollisionConditionTarget>
+      </TimeToCollisionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If Ego is less than 0m/s faster than Lead,"<Condition name=""QuitCondition"" delay=""4"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeSpeedCondition rule=""lessThan"" value=""0"" entityRef=""Lead"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When more than $StartTime seconds have passed since startup,"<Condition name=""EventTrigger1"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""$StartTime"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When more than 14 seconds have passed since starting,"<Condition name=""StopSimulationCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""14"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 600 seconds or more,"<Condition conditionEdge=""rising"" delay=""0"" name=""stop_simulation"">
+  <ByValueCondition>
+    <SimulationTimeCondition rule=""greaterThan"" value=""600"" />
+  </ByValueCondition>
+</Condition>"
+60 seconds after starting simulation,"<Condition name=""SwarmStopTrigger"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""60"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+If it drives a total of 5m,"<Condition name=""EndCondition1"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""5"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"When NPC4 is completely stopped and the waiting delay of 2 seconds has elapsed,","<Condition name=""EndCondition2"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""NPC4"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <StandStillCondition duration=""2"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the TTC to is within $TTC seconds,"<Condition name=""SyncConditionTarget"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeToCollisionCondition value=""$TTC"" freespace=""true"" coordinateSystem=""entity"" relativeDistanceType=""longitudinal"" rule=""lessThan"">
+        <TimeToCollisionConditionTarget>
+          <Position>
+            <LanePosition roadId=""240"" laneId=""-1"" offset=""0"" s=""5"" />
+          </Position>
+        </TimeToCollisionConditionTarget>
+      </TimeToCollisionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+SetTargetSpeedEvent When the event enters the end phase,"<Condition name=""SyncConditionTarget"" delay=""0.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""SetTargetSpeedEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When Ego enters the range of 30.0m in the first lane on the right,"<Condition name=""QuitCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""5.0"">
+        <Position>
+          <LanePosition roadId=""235"" laneId=""-1"" s=""30.0"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If Ego is less than $RedLightDistancem from the absolute position of 109.0m in the first lane on the right.,"<Condition name=""PositionCondition"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <DistanceCondition value=""$RedLightDistance"" freespace=""false"" rule=""lessThan"" relativeDistanceType=""longitudinal"" coordinateSystem=""road"">
+        <Position>
+          <LanePosition roadId=""3"" laneId=""-1"" s=""109.0"" offset=""0.0"" />
+        </Position>
+      </DistanceCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the traffic light is in $TrafficLightYellow state,"<Condition name=""TrafficLightYellow"" delay=""3.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""1"" state=""$TrafficLightYellow"" />
+  </ByValueCondition>
+</Condition>"
+When the traffic light is $TrafficLightRed,"<Condition name=""TrafficLightRed"" delay=""10.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""1"" state=""$TrafficLightRed"" />
+  </ByValueCondition>
+</Condition>"
+When the lighting logic of signal '1' mounted on road infrastructure switches to the '$TrafficLightRed' phase,"<Condition name=""TrafficLightRed"" delay=""3.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""1"" state=""$TrafficLightRed"" />
+  </ByValueCondition>
+</Condition>"
+When the traffic light at intersection 1 is $TrafficLightRed,"<Condition name=""TrafficLightRed2"" delay=""9.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""1"" state=""$TrafficLightRed"" />
+  </ByValueCondition>
+</Condition>"
+When the traffic light at intersection 1 is $TrafficLightYellow,"<Condition name=""TrafficLightYellow"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""1"" state=""$TrafficLightYellow"" />
+  </ByValueCondition>
+</Condition>"
+When the traffic light is $TrafficLightGreen,"<Condition name=""TrafficLightGreen"" delay=""0.5"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""1"" state=""$TrafficLightGreen"" />
+  </ByValueCondition>
+</Condition>"
+When the traffic light is $PedestrianLightGreen,"<Condition name=""PedestrianLightGreen"" delay=""0.5"" conditionEdge=""none"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""3"" state=""$PedestrianLightGreen"" />
+  </ByValueCondition>
+</Condition>"
+When the $PedestrianLightGreen signal is,"<Condition name=""PedestrianLightGreen"" delay=""1.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <TrafficSignalCondition name=""2"" state=""$PedestrianLightGreen"" />
+  </ByValueCondition>
+</Condition>"
+When more than 30 seconds have passed since starting,"<Condition name=""StopCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""30"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When more than 15 seconds have passed since starting,"<Condition name=""time_trigger"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""15"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+1.0 seconds after starting simulation,"<Condition name=""ReverseTrigger"" delay=""0.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""1.0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+ReverseEvent When the action enters the end phase,"<Condition name=""ConnectTrigger"" delay=""2.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""ReverseEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the ConnectEvent action enters the end phase,"<Condition name=""ForwardEvent"" delay=""2.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""ConnectEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding event 'ForwardEvent' is the starting stage,"<Condition name=""DisconnectEvent"" delay=""4.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""ForwardEvent"" state=""startTransition"" />
+  </ByValueCondition>
+</Condition>"
+2 seconds after starting simulation,"<Condition name=""StartTrigger"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""2"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+ForwardEvent When the action enters the end phase,"<Condition name=""DisconnectEvent"" delay=""2.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""ForwardEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the time between cars and Ego is 0.5 seconds,"<Condition conditionEdge=""rising"" delay=""0.2"" name=""FollowTrajectoryPLineTrigger"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Target"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition alongRoute=""false"" entityRef=""Ego"" freespace=""false"" rule=""lessThan"" value=""0.5"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+FollowTrajectoryPLineEvent When the action enters the end phase,"<Condition name=""FollowTrajectoryClothoidTrigger"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""FollowTrajectoryPLineEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding action 'FollowTrajectoryClothoidEvent' enters the end phase.,"<Condition name=""FollowTrajectory2Trigger"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""FollowTrajectoryClothoidEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding event 'FollowTrajectoryNurbsEvent' enters the end stage,"<Condition name=""AlignHeadingTrigger"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""FollowTrajectoryNurbsEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+FollowTrajectoryNurbsEvent When the operation enters the end phase,"<Condition name=""FollowTrajectory2Trigger"" delay=""5"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""FollowTrajectoryNurbsEvent"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the simulation time reaches 38 seconds or more,"<Condition conditionEdge=""rising"" delay=""0"" name=""starttrigger"">
+  <ByValueCondition>
+    <SimulationTimeCondition rule=""greaterThan"" value=""38"" />
+  </ByValueCondition>
+</Condition>"
+If it stays at the end of the road for 3.0 seconds,"<Condition name=""EndCondition"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Car1"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <EndOfRoadCondition duration=""3.0"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When a clearance of 40m in the front and 20m in the rear is secured around the target.,"<Condition name=""RelativeClearanceCondition"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""all"">
+      <EntityRef entityRef=""Target"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeClearanceCondition distanceForward=""40"" distanceBackward=""20"" freeSpace=""false"" oppositeLanes=""false"">
+        <RelativeLaneRange from=""1"" to=""1"" />
+      </RelativeClearanceCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When it gets closer to the target within 20.0m,"<Condition name=""DistanceCondition"" delay=""0.0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""all"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""Target"" freespace=""false"" rule=""greaterThan"" relativeDistanceType=""longitudinal"" value=""20.0"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'CutInEvent' is running,"<Condition name=""stop_simulation"" delay=""7.0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""CutInEvent"" state=""runningState"" />
+  </ByValueCondition>
+</Condition>"
+Synchronize_Act When the action is in the startup phase,"<Condition name=""Synchronize_NPC_Action_Condition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""Synchronize_Act"" state=""startTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the preceding event 'Synchronize_NPC_Event' is completed,"<Condition name=""Keep_Relative_Speed_Condition_NPC"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""Synchronize_NPC_Event"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When Ego enters the range of point $MS2EgoSm by $EgoTargetLaneId,"<Condition name=""Free_Speed_Condition_NPC"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <ReachPositionCondition tolerance=""5.0"">
+        <Position>
+          <LanePosition roadId=""0"" laneId=""$EgoTargetLaneId"" s=""$MS2EgoS"" />
+        </Position>
+      </ReachPositionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the GVT_Synchronize event completes,"<Condition name=""AfterSynchronization"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""maneuver"" storyboardElementRef=""GVT_Synchronize"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+From the point when the current value of the specific driving variable 'collisionDetected' declared within the logical area satisfies the formula 'true' ==,"<Condition name=""StopAfterCollision"" delay=""1"" conditionEdge=""none"">
+  <ByValueCondition>
+    <VariableCondition variableRef=""collisionDetected"" rule=""equalTo"" value=""true"" />
+  </ByValueCondition>
+</Condition>"
+When the shared internal variable egoSpeedReached > changes to 0 state,"<Condition name=""EgoSpeedReached"" delay=""1"" conditionEdge=""none"">
+  <ByValueCondition>
+    <VariableCondition variableRef=""egoSpeedReached"" rule=""greaterThan"" value=""0"" />
+  </ByValueCondition>
+</Condition>"
+If it stops for 0.1 second,"<Condition name=""StopAtStandstill"" delay=""1"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <StandStillCondition duration=""0.1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If Ego travels ${$_GVT_syncS-$Ego_initS}m,"<Condition name=""StopAfterTraveledDistance"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$_GVT_syncS-$Ego_initS}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it drives the total $_GVT_initDistm,"<Condition name=""StopAfterTraveledDistance"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""$_GVT_initDist"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+0.5 seconds after starting simulation,"<Condition name=""SimulationStart"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0.5"" rule=""greaterThan"" />
+  </ByValueCondition>
+</Condition>"
+When the shared internal variable collisionDetected == true changes to the state,"<Condition name=""StopAfterCollision"" delay=""3"" conditionEdge=""none"">
+  <ByValueCondition>
+    <VariableCondition variableRef=""collisionDetected"" rule=""equalTo"" value=""true"" />
+  </ByValueCondition>
+</Condition>"
+"If it drives a total of ${$_Trajectory_straightLength+$_Trajectory_clothoidLength+$_Trajectory_arcLength+$Ego_length}m,","<Condition name=""StopPastTarget"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$_Trajectory_straightLength+$_Trajectory_clothoidLength+$_Trajectory_arcLength+$Ego_length}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If the target travels ${1.5*($_Target_syncS-$_Target_initS)}m,"<Condition name=""StopTargetCrossed"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Target"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${1.5*($_Target_syncS-$_Target_initS)}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When GVT_Teleport operation is completed,"<Condition name=""delay"" delay=""$GVT_braking_delay"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""maneuver"" storyboardElementRef=""GVT_Teleport"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When system argument isCCRbraking == true,"<Condition name=""isCCRb"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""isCCRbraking"" rule=""equalTo"" value=""true"" />
+  </ByValueCondition>
+</Condition>"
+When Ego speed is ${$_GVT_init_speed*0.8}m/s,"<Condition name=""StopWhenBelowGVTSpeed"" delay=""1"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <SpeedCondition value=""${$_GVT_init_speed*0.8}"" rule=""lessThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"If the VRU travels ${$Road_armLength+25-$_VRU_initS}m,","<Condition name=""StopAfterVRUCrossed"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""VRU"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$Road_armLength+25-$_VRU_initS}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When Ego approaches the VRU at a longitudinal distance of $_triggerDistm or less.,"<Condition name=""AtEgoApproaching"" delay=""0.0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition freespace=""true"" relativeDistanceType=""longitudinal"" value=""$_triggerDist"" rule=""lessOrEqual"" entityRef=""VRU"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If the VRU is faster than Ego by more than 2 m/s,"<Condition name=""StopAtSameSpeed"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""VRU"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeSpeedCondition value=""2"" rule=""greaterThan"" entityRef=""Ego"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+Activates the moment Ego completes driving a total distance of ${$_Ego_speed*$Ego_initTTC+$_triggerDist}m from the starting point.,"<Condition name=""EnsureTraveledDistance"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$_Ego_speed*$Ego_initTTC+$_triggerDist}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If Ego is stopped for 0.1 seconds,"<Condition name=""StopAtStandstill2"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <StandStillCondition duration=""0.1"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If Ego travels ${$_VRU_initS-$Ego_initS+5}m,"<Condition name=""StopAfterCrossingVRUTrajectory"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$_VRU_initS-$Ego_initS+5}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If Ego travels ${$_Ego_syncS+3*$Ego_length}m,"<Condition name=""StopPastVRU"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$_Ego_syncS+3*$Ego_length}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it moves ${2*$VRU_collisionDist}m,"<Condition name=""StopVRUCrossed"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""VRU"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${2*$VRU_collisionDist}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If Ego travels ${$Ego_initDist*1.5}m,"<Condition name=""StopPastVRU"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$Ego_initDist*1.5}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"If it drives a total of ${$_Trajectory_straightLength+2*$_Trajectory_clothoidLength+$_Trajectory_arcLength+3*$Ego_length}m,","<Condition name=""StopPastVRU"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$_Trajectory_straightLength+2*$_Trajectory_clothoidLength+$_Trajectory_arcLength+3*$Ego_length}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+Once narrowed down to Target and $_triggerDistm,"<Condition name=""AtEgoApproaching"" delay=""0.0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition freespace=""true"" relativeDistanceType=""longitudinal"" value=""$_triggerDist"" rule=""lessOrEqual"" entityRef=""Target"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"If the parameter LightingConditions is Night, then","<Condition name=""NightCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""LightingConditions"" rule=""equalTo"" value=""Night"" />
+  </ByValueCondition>
+</Condition>"
+When the relative speed difference is 2m/s,"<Condition name=""StopAtSameSpeed"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Target"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeSpeedCondition value=""2"" rule=""greaterThan"" entityRef=""Ego"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If the parameter is 60,"<Condition name=""Ego_speed_exceeds"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""Ego_speed_kph"" rule=""greaterThan"" value=""60"" />
+  </ByValueCondition>
+</Condition>"
+If the parameter is 60,"<Condition name=""Target_speed_exceeds"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""Target_final_speed_kph"" rule=""greaterThan"" value=""60"" />
+  </ByValueCondition>
+</Condition>"
+If it moves ${$_Ego_syncS+$Ego_length}m,"<Condition name=""StopPastTarget"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$_Ego_syncS+$Ego_length}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it goes to $_Target_initDistm,"<Condition name=""StopAfterTraveledDistance"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""$_Target_initDist"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it drives a total of $_Ego_TurnSignalActivationSm,"<Condition name=""IntersectionReachedS"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""$_Ego_TurnSignalActivationS"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When Ego heading angle is 1.571rad,"<Condition name=""EgoHeadingReached"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <AngleCondition angleTolerance=""0.01"" angleType=""heading"" angle=""1.571"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'TurnSignalOn_Act' has completed,"<Condition name=""TurnSignalOn_Act_Completed"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""act"" storyboardElementRef=""TurnSignalOn_Act"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the step of the 'Target_Teleport' event is completed,"<Condition name=""delay"" delay=""$Target_braking_delay"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""maneuver"" storyboardElementRef=""Target_Teleport"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+If the parameter isTargetbraking is true,"<Condition name=""isCCRb"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <ParameterCondition parameterRef=""isTargetbraking"" rule=""equalTo"" value=""true"" />
+  </ByValueCondition>
+</Condition>"
+If Ego is faster than Target by -1m/s or less,"<Condition name=""StopWhenBelowTargetSpeed"" delay=""1"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeSpeedCondition value=""-1"" rule=""lessThan"" entityRef=""Target"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When narrowed down to Target and ${$Ego_initTimeHeadway*$_Ego_speed}m or more,"<Condition name=""StopPastTarget"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition freespace=""true"" relativeDistanceType=""longitudinal"" value=""${$Ego_initTimeHeadway*$_Ego_speed}"" rule=""greaterThan"" entityRef=""Target"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"If it drives a total of ${$VRU_initS-$_Ego_initS+5}m,","<Condition name=""StopAfterCrossingVRUTrajectory"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""${$VRU_initS-$_Ego_initS+5}"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+If it collides with $collidingEntity,"<Condition name=""DetectCollision"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <CollisionCondition>
+        <EntityRef entityRef=""$collidingEntity"" />
+      </CollisionCondition>
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When ego speed is more than ${$egoSpeed*0.98}m/s,"<Condition name=""EgoSpeedReached"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <SpeedCondition value=""${$egoSpeed*0.98}"" rule=""greaterThan"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+"__pedestrianWhen Pedestrian approaches ego_vehicle within a straight line distance of less than 16m,","<Condition name=""__RelativeDistanceCondtion"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""__pedestrianPedestrian"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition value=""16"" freespace=""false"" entityRef=""ego_vehicle"" rule=""lessThan"" relativeDistanceType=""cartesianDistance"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When a step in the '__bbq_distanceEvent' action is completed,"<Condition name=""__speedchangeStoryboardElementStateCondition"" delay=""1"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""__bbq_distanceEvent"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+__When it gets closer to the EgoEgoVehicle within 15m,"<Condition name=""__RelativeDistanceCondtion"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""___cutInCar"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition value=""15"" freespace=""false"" entityRef=""__EgoEgoVehicle"" rule=""lessThan"" relativeDistanceType=""cartesianDistance"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+__CutInEvent When the event has completed,"<Condition name=""__cut_in_eventStoryboardElementStateCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""__CutInEvent"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+If it drives a total of 70m,"<Condition name=""__70TraveledDistanceCondition"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""___cutInCar"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""70"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action '__CutInLeftEvent' has completed,"<Condition name=""__weatherchangeStoryboardElementStateCondition"" delay=""5"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""__CutInLeftEvent"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+__When it gets closer to the EgoEgoVehicle within 17m,"<Condition name=""__StartRelativeDistanceCondtion"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""___cutInCar"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition value=""17"" freespace=""false"" entityRef=""__EgoEgoVehicle"" rule=""lessThan"" relativeDistanceType=""cartesianDistance"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When it gets closer to ego_vehicle within 15m,"<Condition name=""indiv_RelativeDistanceCondtion"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""indiv__cutInCar"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition value=""15"" freespace=""false"" entityRef=""ego_vehicle"" rule=""lessThan"" relativeDistanceType=""cartesianDistance"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'indiv_CutInEvent' is completed,"<Condition name=""indiv_cut_in_eventStoryboardElementStateCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""indiv_CutInEvent"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+when indiv__cutInCar travels 70m,"<Condition name=""indiv_70TraveledDistanceCondition"" delay=""0"" conditionEdge=""none"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""indiv__cutInCar"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TraveledDistanceCondition value=""70"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'indiv_CutInLeftEvent' has completed,"<Condition name=""indiv_KeepLongerStoryboardElementStateCondition"" delay=""5"" conditionEdge=""none"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""event"" storyboardElementRef=""indiv_CutInLeftEvent"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the straight-line distance between indiv__cutInCar and object ego_vehicle reaches the displacement area of ​​17m or less.,"<Condition name=""indiv_StartRelativeDistanceCondtion"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""indiv__cutInCar"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition value=""17"" freespace=""false"" entityRef=""ego_vehicle"" rule=""lessThan"" relativeDistanceType=""cartesianDistance"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+3.0 seconds after starting simulation,"<Condition name=""ActivateALKSControllerEventCondition"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""3.0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+${5000.0 / ($Ego_InitSpeed_Ve0_kph / 3.6)} seconds after simulation start,"<Condition name=""End"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""${5000.0 / ($Ego_InitSpeed_Ve0_kph / 3.6)}"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When more than 10.0 seconds have passed since start,"<Condition name=""SwerveEventStart"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""10.0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When the SwerveAction event enters the termination phase,"<Condition name=""SwerveEvent2Start"" delay=""5"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""SwerveAction"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When the stage of the 'SwerveAction2' event enters the end stage,"<Condition name=""SwerveEvent3Start"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""SwerveAction2"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+SwerveAction3 When the action enters the end phase,"<Condition name=""SwerveEvent4Start"" delay=""5"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""SwerveAction3"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+When more than 0.0 seconds have passed since starting,"<Condition name=""SwerveActStart"" delay=""0"" conditionEdge=""none"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""0.0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+After 50.0 seconds,"<Condition name=""End"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""50.0"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When more than ${($TargetBlocking_InitPosition_LongitudinalOffset_m / ($Ego_InitSpeed_Ve0_kph / 3.6)) + 10.0} seconds have passed since start.,"<Condition name=""End"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""${($TargetBlocking_InitPosition_LongitudinalOffset_m / ($Ego_InitSpeed_Ve0_kph / 3.6)) + 10.0}"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"
+When the headway time from TargetBlocking is ${sqrt( $TargetBlocking_InitPosition_LateralOffset_m * $TargetBlocking_InitPosition_LateralOffset_m ) / ($TargetBlocking_Speed_kph / 3.6)} seconds,"<Condition name=""CrossStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <TimeHeadwayCondition entityRef=""TargetBlocking"" value=""${sqrt( $TargetBlocking_InitPosition_LateralOffset_m * $TargetBlocking_InitPosition_LateralOffset_m ) / ($TargetBlocking_Speed_kph / 3.6)}"" freespace=""true"" rule=""lessThan"" coordinateSystem=""road"" relativeDistanceType=""longitudinal"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When the preceding action 'VaryingSpeedAction' enters the end stage,"<Condition name=""VaryingSpeedEvent2Start"" delay=""10.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""VaryingSpeedAction"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+VaryingSpeedAction2 When the action enters the end phase,"<Condition name=""End"" delay=""20.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""VaryingSpeedAction2"" state=""endTransition"" />
+  </ByValueCondition>
+</Condition>"
+BrakeAction When the action is completed,"<Condition name=""End"" delay=""10.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""BrakeAction"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When Ego approaches the CutInVehicle within a longitudinal distance of $CutInVehicle_HeadwayDistanceTrigger_dx0_mm,"<Condition name=""CutInStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""Ego"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""CutInVehicle"" relativeDistanceType=""longitudinal"" value=""$CutInVehicle_HeadwayDistanceTrigger_dx0_m"" freespace=""true"" rule=""lessThan"" coordinateSystem=""entity"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+When a step in the 'CutInAction' action is completed,"<Condition name=""End"" delay=""10.0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <StoryboardElementStateCondition storyboardElementType=""action"" storyboardElementRef=""CutInAction"" state=""completeState"" />
+  </ByValueCondition>
+</Condition>"
+When the LeadVehicle approaches TargetBlocking and is less than the longitudinal distance $FrontOfLead_Distance_dx0_f_mm,"<Condition name=""CutOutStartCondition"" delay=""0"" conditionEdge=""rising"">
+  <ByEntityCondition>
+    <TriggeringEntities triggeringEntitiesRule=""any"">
+      <EntityRef entityRef=""LeadVehicle"" />
+    </TriggeringEntities>
+    <EntityCondition>
+      <RelativeDistanceCondition entityRef=""TargetBlocking"" relativeDistanceType=""longitudinal"" value=""$FrontOfLead_Distance_dx0_f_m"" freespace=""true"" rule=""lessThan"" coordinateSystem=""entity"" />
+    </EntityCondition>
+  </ByEntityCondition>
+</Condition>"
+40 seconds after starting simulation,"<Condition name=""End"" delay=""0"" conditionEdge=""rising"">
+  <ByValueCondition>
+    <SimulationTimeCondition value=""40"" rule=""greaterOrEqual"" />
+  </ByValueCondition>
+</Condition>"

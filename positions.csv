@@ -1,0 +1,1612 @@
+﻿description,code
+"at world coordinates (x:170, y:55)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""170"" y=""55"" z=""0"" h=""3.14159265359"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:150, y:55)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""150"" y=""55"" z=""0"" h=""3.14159265359"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:150, y:60)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""150"" y=""60"" z=""0"" h=""3.14159265359"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:110, y:52)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""110"" y=""52"" z=""0.3"" h=""1.57079632679"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:100, y:58)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""100"" y=""58"" z=""0"" h=""1.57079632679"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 48.58m on right lane 1 of road 4 (lateral offset 1.0m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""4"" laneId=""-1"" offset=""1.0"" s=""48.58"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:130, y:55)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""130"" y=""55"" z=""0"" h=""3.14159265359"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:95.5, y:41)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""95.5"" y=""41"" z=""0.2"" h=""3.14159265359"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 48.58m longitudinally and 2.75m laterally on road 4,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoadPosition roadId=""4"" s=""48.58"" t=""2.75"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 50m longitudinally and -1.0m laterally relative to hero,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeRoadPosition entityRef=""hero"" ds=""50"" dt=""-1.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:140, y:55)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""140"" y=""55"" z=""0"" h=""3.14159265359"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:92.5, y:91)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""92.5"" y=""91"" z=""0.2"" h=""-1.56"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:-9.4, y:-152.8)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""-9.4"" y=""-152.8"" z=""0.5"" h=""1.57079632679"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:-9.4, y:-71.0)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""-9.4"" y=""-71.0"" z=""0.5"" h=""1.57079632679"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:-8.2, y:29.2)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""-8.2"" y=""29.2"" z=""0.5"" h=""1.57079632679"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 48.58m on right lane 1 of road 4,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""4"" laneId=""-1"" s=""48.58"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:190, y:133)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""190"" y=""133"" z=""0"" h=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:92.44, y:314)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""92.44"" y=""314"" z=""0"" h=""-1.5707963267948966"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:90, y:308)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""90"" y=""308"" z=""0.0"" h=""-1.57079632679"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:95, y:298)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""95"" y=""298"" z=""0.3"" h=""1.57079632679"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:91, y:288)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""91"" y=""288"" z=""0.3"" h=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:93, y:278)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""93"" y=""278"" z=""0.0"" h=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:91, y:268)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""91"" y=""268"" z=""0.0"" h=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 98.58m longitudinally and 2.75m laterally on road 4,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoadPosition roadId=""4"" s=""98.58"" t=""2.75"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at -25m longitudinally and 0m laterally relative to hero,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeRoadPosition entityRef=""hero"" ds=""-25"" dt=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 80.0m on lane $EgoVehicle_StartLane of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$EgoVehicle_StartLane"" offset=""0.0"" s=""80.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $ChallengingVehicle_StartDistance_Relativem longitudinally and 0 lanes laterally from EgoVehicle's lane,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""EgoVehicle"" dLane=""0"" ds=""$ChallengingVehicle_StartDistance_Relative"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $ChallengingVehicle_StartDistance_Relativem longitudinally and $ChallengingVehicle_StartLane_Relative lanes laterally from EgoVehicle's lane (lateral offset $ChallengingVehicle_StartLaneOffsetm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""EgoVehicle"" dLane=""$ChallengingVehicle_StartLane_Relative"" ds=""$ChallengingVehicle_StartDistance_Relative"" offset=""$ChallengingVehicle_StartLaneOffset"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 50.0m on lane $EgoVehicle_StartLane of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$EgoVehicle_StartLane"" offset=""0"" s=""50.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 200.0m on right lane 3 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-3"" s=""200.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 200.0m on right lane 2 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-2"" s=""200.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 500.0m on left lane 1 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""1"" s=""500.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 530.0m on left lane 2 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""2"" s=""530.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $EgoSm on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""0"" s=""$EgoS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $TargetSm on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""0"" s=""$TargetS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $EgoSm on right lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" offset=""0"" s=""$EgoS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $TargetSm on right lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" offset=""0"" s=""$TargetS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $TargetSm on left lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""1"" offset=""0"" s=""$TargetS"">
+        <Orientation type=""relative"" h=""3.141593"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the trajectory 'bicycle_trajectory' passing through [at 100.0m on right lane 1 of road 1 -> at 120.0m on right lane 1 of road 1 -> at 125.0m on right lane 1 of road 1 -> at 130.0m on right lane 1 of road 1 -> at 130.0m on right lane 1 of road 1],"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""bicycle_trajectory"">
+        <ParameterDeclarations />
+        <Shape>
+          <Polyline>
+            <Vertex time=""0"">
+              <Position>
+                <LanePosition roadId=""1"" laneId=""-1"" s=""100.0"">
+                  <Orientation type=""relative"" r=""0.0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""2"">
+              <Position>
+                <LanePosition roadId=""1"" laneId=""-1"" s=""120.0"">
+                  <Orientation type=""relative"" r=""0.0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""2.5"">
+              <Position>
+                <LanePosition roadId=""1"" laneId=""-1"" s=""125.0"">
+                  <Orientation type=""relative"" r=""1.5"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""3.5"">
+              <Position>
+                <LanePosition roadId=""1"" laneId=""-1"" s=""130.0"">
+                  <Orientation type=""relative"" r=""1.5"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""4"">
+              <Position>
+                <LanePosition roadId=""1"" laneId=""-1"" s=""130.0"">
+                  <Orientation type=""relative"" r=""1.5"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+          </Polyline>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <Timing domainAbsoluteRelative=""relative"" offset=""0"" scale=""1"" />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at 20m on right lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" offset=""0"" s=""20"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $EgoStartSm on right lane 3 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-3"" offset=""0"" s=""$EgoStartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 25m on right lane 2 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-2"" offset=""0"" s=""25"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 50m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""0"" s=""50"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at -20m longitudinally and 3.1m laterally relative to Ego,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeRoadPosition entityRef=""Ego"" ds=""-20"" dt=""3.1"">
+        <Orientation type=""absolute"" h=""0"" />
+      </RelativeRoadPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 1m on right lane 3 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition laneId=""-3"" offset=""0"" roadId=""0"" s=""1"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 1m on right lane 2 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition laneId=""-2"" offset=""0"" roadId=""0"" s=""1"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 50.0m longitudinally and -1.5m laterally on road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoadPosition roadId=""1"" s=""50.0"" t=""-1.5"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 10.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""0.0"" s=""10.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 40m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""40"" offset=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 75m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""75"" offset=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 0.0m longitudinally and -0.6m laterally relative to Target,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""Target"" dx=""0.0"" dy=""-0.6"" dz=""0.2"">
+        <Orientation type=""relative"" h=""1.57"" />
+      </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 150m on right lane 1 of road 1 (lateral offset -2m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""-2"" s=""150"">
+        <Orientation type=""relative"" h=""0.1"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 10.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""10.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 130.0m on right lane 2 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-2"" offset=""0.0"" s=""130.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 70.0m on right lane 2 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-2"" offset=""0.0"" s=""70.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 20.0m on right lane 2 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-2"" offset=""0.0"" s=""20.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 60.0m on right lane 1 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-1"" offset=""0.0"" s=""60.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 10.0m on right lane 1 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-1"" offset=""0.0"" s=""10.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 18.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""0.0"" s=""18.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 120.0m on right lane 2 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-2"" offset=""0.0"" s=""120.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 100.0m on right lane 2 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-2"" offset=""0.0"" s=""100.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 83.0m on right lane 2 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-2"" offset=""0.0"" s=""83.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 300m on left lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""1"" offset=""0"" s=""300"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $EgoStartSm on right lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" offset=""0"" s=""$EgoStartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 350m on left lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""1"" offset=""0"" s=""350"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 370m on right lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" offset=""0"" s=""370"">
+        <Orientation type=""relative"" h=""3.1415"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $EgoStartSm on left lane 3 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""3"" offset=""0"" s=""$EgoStartS"">
+        <Orientation type=""relative"" h=""3.14159"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at -30m longitudinally and -1 lanes laterally from Ego's lane,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""-1"" ds=""-30"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $EgoStartSm on left lane 3 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""3"" offset=""0"" s=""$EgoStartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'HostStraightRoute' from RoutesAtFabriksgatan,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference catalogName=""RoutesAtFabriksgatan"" entryName=""HostStraightRoute"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at 0m on left lane 1 in the predefined route 'HostStraightRoute' from RoutesAtFabriksgatan,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RoutesAtFabriksgatan"" entryName=""HostStraightRoute"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates pathS=""0"" laneId=""1"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'TargetLeftTurnRoute' from RoutesAtFabriksgatan,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference catalogName=""RoutesAtFabriksgatan"" entryName=""TargetLeftTurnRoute"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at $NPCStartPointSm on right lane 1 in the predefined route 'TargetLeftTurnRoute' from RoutesAtFabriksgatan,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RoutesAtFabriksgatan"" entryName=""TargetLeftTurnRoute"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates pathS=""$NPCStartPointS"" laneId=""-1"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:1.8, y:-358)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""1.8"" y=""-358"" z=""0"" h=""1.57"" p=""0"" r=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 15m on left lane 3 of road 0 (lateral offset 0.5m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition laneId=""3"" offset=""0.5"" roadId=""0"" s=""15"">
+        <Orientation type=""relative"" h=""0"" p=""0"" r=""0"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'ComplexRoute' from RoutesAtMultiIntersections,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference catalogName=""RoutesAtMultiIntersections"" entryName=""ComplexRoute"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at 20m on left lane 1 in the predefined route 'ComplexRoute' from RoutesAtMultiIntersections,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RoutesAtMultiIntersections"" entryName=""ComplexRoute"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates pathS=""20"" laneId=""1"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 200m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""0"" s=""200"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 10m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""0"" s=""10"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 10m on right lane 1 of road 1 (lateral offset 3.07m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" offset=""3.07"" s=""10"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 30m on left lane 1 of road 242,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition laneId=""1"" offset=""0"" roadId=""242"" s=""30"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 300m on right lane 3 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-3"" offset=""0"" s=""300"">
+        <Orientation type=""relative"" h=""0"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $EgoStartSm on lane $EgoLaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$EgoLaneId"" offset=""0"" s=""$EgoStartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $NPC1StartSm on lane $NPC1LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$NPC1LaneId"" offset=""0"" s=""$NPC1StartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $NPC2StartSm on lane $NPC2LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$NPC2LaneId"" offset=""0"" s=""$NPC2StartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $NPC3StartSm on lane $NPC3LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$NPC3LaneId"" offset=""0"" s=""$NPC3StartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $NPC4StartSm on lane $NPC4LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$NPC4LaneId"" offset=""0"" s=""$NPC4StartS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $MS1EgoSm on right lane 5 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-5"" offset=""0"" s=""$MS1EgoS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $MS2EgoSm on right lane 5 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-5"" offset=""0"" s=""$MS2EgoS"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'HostStraightRoute' from RoutesAtMultiIntersections,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference catalogName=""RoutesAtMultiIntersections"" entryName=""HostStraightRoute"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at $HostStartSm on left lane 1 in the predefined route 'HostStraightRoute' from RoutesAtMultiIntersections,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RoutesAtMultiIntersections"" entryName=""HostStraightRoute"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates pathS=""$HostStartS"" laneId=""1"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'TargetStraightLeftToRight' from RoutesAtMultiIntersections,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference catalogName=""RoutesAtMultiIntersections"" entryName=""TargetStraightLeftToRight"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at $TargetStartSm on left lane 1 in the predefined route 'TargetStraightLeftToRight' from RoutesAtMultiIntersections,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RoutesAtMultiIntersections"" entryName=""TargetStraightLeftToRight"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates pathS=""$TargetStartS"" laneId=""1"" laneOffset=""-1.0"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the route 'MyRoute' passing through [at 11m on right lane 1 of road 3 -> at 200m on left lane 1 of road 2],"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <Route name=""MyRoute"" closed=""false"">
+        <Waypoint routeStrategy=""shortest"">
+          <Position>
+            <LanePosition roadId=""3"" laneId=""-1"" offset=""0.0"" s=""11"" />
+          </Position>
+        </Waypoint>
+        <Waypoint routeStrategy=""shortest"">
+          <Position>
+            <LanePosition roadId=""2"" laneId=""1"" offset=""0.0"" s=""200"" />
+          </Position>
+        </Waypoint>
+      </Route>
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at 10m on right lane 1 of road 3,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""3"" laneId=""-1"" offset=""0"" s=""10"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 113m on right lane 3 of road 3 (lateral offset 0.5m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""3"" laneId=""-3"" offset=""0.5"" s=""113"">
+        <Orientation type=""relative"" h=""1.93"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 110m on left lane 3 of road 3 (lateral offset -0.5m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""3"" laneId=""3"" offset=""-0.5"" s=""110"">
+        <Orientation type=""relative"" h=""1.57"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 100.0m on left lane 1 of road 209,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""209"" laneId=""1"" s=""100.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+heading towards 50m on right lane 1 of road 197,"<PrivateAction>
+  <RoutingAction>
+    <AcquirePositionAction>
+      <Position>
+        <LanePosition roadId=""197"" laneId=""-1"" offset=""0"" s=""50"" />
+      </Position>
+    </AcquirePositionAction>
+  </RoutingAction>
+</PrivateAction>"
+at 30.0m on left lane 1 of road 196,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""196"" laneId=""1"" s=""30.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+heading towards 50m on right lane 1 of road 209,"<PrivateAction>
+  <RoutingAction>
+    <AcquirePositionAction>
+      <Position>
+        <LanePosition roadId=""209"" laneId=""-1"" offset=""0"" s=""50"" />
+      </Position>
+    </AcquirePositionAction>
+  </RoutingAction>
+</PrivateAction>"
+at 100.0m on left lane 2 of road 202,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""202"" laneId=""2"" s=""100.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+heading towards 20m on right lane 2 of road 209,"<PrivateAction>
+  <RoutingAction>
+    <AcquirePositionAction>
+      <Position>
+        <LanePosition roadId=""209"" laneId=""-2"" offset=""0"" s=""20"" />
+      </Position>
+    </AcquirePositionAction>
+  </RoutingAction>
+</PrivateAction>"
+at 50m on left lane 1 of road 197,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""197"" laneId=""1"" offset=""0"" s=""50"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 30m on left lane 1 of road 197,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""197"" laneId=""1"" offset=""0"" s=""30"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+heading towards 50m on right lane 1 of road 202,"<PrivateAction>
+  <RoutingAction>
+    <AcquirePositionAction>
+      <Position>
+        <LanePosition roadId=""202"" laneId=""-1"" offset=""0"" s=""50"" />
+      </Position>
+    </AcquirePositionAction>
+  </RoutingAction>
+</PrivateAction>"
+"at world coordinates (x:$X0, y:$Y0)","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""$X0"" y=""$Y0"" z=""0.0"" h=""1.5708"" p=""0.0"" r=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"at world coordinates (x:${$X0 - $TrajRadius}, y:${$Y0 + $TrajRadius + 4.7})","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <WorldPosition x=""${$X0 - $TrajRadius}"" y=""${$Y0 + $TrajRadius + 4.7}"" z=""0.0"" h=""3.141592"" p=""0.0"" r=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 50m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition laneId=""-1"" offset=""0"" roadId=""1"" s=""50"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 10m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition laneId=""-1"" offset=""0"" roadId=""1"" s=""10"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"along the trajectory 'TrajectoryNurbs' passing through [at world coordinates (x:20, y:0) -> at world coordinates (x:30, y:0) -> at world coordinates (x:60, y:30) -> at world coordinates (x:90, y:-30) -> at world coordinates (x:120, y:0) -> at world coordinates (x:150, y:0)]","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""TrajectoryNurbs"">
+        <ParameterDeclarations />
+        <Shape>
+          <Nurbs order=""3"">
+            <ControlPoint weight=""1.0"">
+              <Position>
+                <WorldPosition x=""20"" y=""0"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint weight=""1.0"">
+              <Position>
+                <WorldPosition x=""30"" y=""0"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint weight=""1.0"">
+              <Position>
+                <WorldPosition x=""60"" y=""30"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint weight=""1.0"">
+              <Position>
+                <WorldPosition x=""90"" y=""-30"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint weight=""1.0"">
+              <Position>
+                <WorldPosition x=""120"" y=""0"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint weight=""1.0"">
+              <Position>
+                <WorldPosition x=""150"" y=""0"" />
+              </Position>
+            </ControlPoint>
+            <Knot value=""0.0"" />
+            <Knot value=""0.0"" />
+            <Knot value=""0.0"" />
+            <Knot value=""0.25"" />
+            <Knot value=""0.5"" />
+            <Knot value=""0.75"" />
+            <Knot value=""1.0"" />
+            <Knot value=""1.0"" />
+            <Knot value=""1.0"" />
+          </Nurbs>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at 10m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""10"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 570m on left lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""1"" s=""570"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 280m on left lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""1"" s=""280"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 10m on right lane 1 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""-1"" s=""10"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 280m on left lane 1 of road 2,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""2"" laneId=""1"" s=""280"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $InitialEgoSm on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""$InitialEgoS"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$InitialEgoS - 15}m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""${$InitialEgoS - 15}"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $Ego_initSm on right lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""$Ego_initS"">
+                </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_GVT_initSm on right lane 1 of road 0 (lateral offset $GVT_latDistm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""$_GVT_initS"" offset=""$GVT_latDist"">
+        <Orientation h=""${pi}"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $GVT_followingDistancem longitudinally and 0m laterally relative to GVT,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""GVT"" dx=""$GVT_followingDistance"" dy=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_GVT_initDistm longitudinally and 0m laterally relative to Ego,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeRoadPosition entityRef=""Ego"" ds=""$_GVT_initDist"" dt=""0"">
+        <Orientation h=""${pi}"" />
+      </RelativeRoadPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined trajectory 'Ego_CxTx' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CxTx"">
+          <ParameterAssignments>
+            <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa1}"" parameterRef=""kappa1"" />
+            <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa2}"" parameterRef=""kappa2"" />
+            <ParameterAssignment value=""$_Trajectory_clothoidLength"" parameterRef=""clothoidLength"" />
+            <ParameterAssignment value=""$_Trajectory_arcLength"" parameterRef=""arcLength"" />
+            <ParameterAssignment value=""$_Ego_initS"" parameterRef=""start_s"" />
+            <ParameterAssignment value=""$_Trajectory_straightLength"" parameterRef=""straight_length"" />
+          </ParameterAssignments>
+        </CatalogReference>
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+along the predefined trajectory 'Target_straightAcross' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction initialDistanceOffset=""$_Target_initS"">
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Target_straightAcross"" />
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at ${$Ego_initTimeHeadway*$_Ego_speed}m longitudinally and 0 lanes laterally from Ego's lane (lateral offset $_GVT_offsetm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" offset=""$_GVT_offset"" ds=""${$Ego_initTimeHeadway*$_Ego_speed}"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_Ego_initSm on right lane 1 in the predefined route 'Ego_Intersection' from RouteCatalog,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference entryName=""Ego_Intersection"" catalogName=""RouteCatalog"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates laneId=""-1"" pathS=""$_Ego_initS"" laneOffset=""0"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'Ego_Intersection' from RouteCatalog,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference entryName=""Ego_Intersection"" catalogName=""RouteCatalog"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at $_VRU_initSm on right lane 1 in the predefined route 'VRU_Intersection_Farside' from RouteCatalog,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference entryName=""VRU_Intersection_Farside"" catalogName=""RouteCatalog"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates laneId=""-1"" pathS=""$_VRU_initS"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'VRU_Intersection_Farside' from RouteCatalog,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference entryName=""VRU_Intersection_Farside"" catalogName=""RouteCatalog"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at ${$_Road_collisionPointAQ-$VRU_steadyStateDist-$_ObstructionLarge_rearOverhang}m on right lane 1 in the predefined route 'VRU_Intersection_Farside' from RouteCatalog,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Farside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates laneId=""-1"" pathS=""${$_Road_collisionPointAQ-$VRU_steadyStateDist-$_ObstructionLarge_rearOverhang}"" laneOffset=""${-$ObstructionLarge_width/2-$VRU_width/2-$VRU_lateralDist}"" />
+        </InRoutePosition>
+        <Orientation h=""3.14159"" type=""relative"" />
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$ObstructionLarge_length+$Obstruction_gap}m longitudinally and ${$ObstructionSmall_width/2-$ObstructionLarge_width/2}m laterally relative to ObstructionLarge,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""ObstructionLarge"" dx=""${$ObstructionLarge_length+$Obstruction_gap}"" dy=""${$ObstructionSmall_width/2-$ObstructionLarge_width/2}"">
+                </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$_Ego_speed*$Ego_initTTC+$_triggerDist}m longitudinally and 0 lanes laterally from Ego's lane (lateral offset $_VRU_latOffsetm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" offset=""$_VRU_latOffset"" ds=""${$_Ego_speed*$Ego_initTTC+$_triggerDist}"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_VRU_initSm on right lane 1 in the predefined route 'VRU_Intersection_Nearside' from RouteCatalog,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference entryName=""VRU_Intersection_Nearside"" catalogName=""RouteCatalog"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates laneId=""-1"" pathS=""$_VRU_initS"" laneOffset=""0"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined route 'VRU_Intersection_Nearside' from RouteCatalog,"<PrivateAction>
+  <RoutingAction>
+    <AssignRouteAction>
+      <CatalogReference entryName=""VRU_Intersection_Nearside"" catalogName=""RouteCatalog"" />
+    </AssignRouteAction>
+  </RoutingAction>
+</PrivateAction>"
+at ${$Road_armLength+$_Road_radiusCenter+$Road_laneWidth/2+$Obstruction_distance+$_ObstructionLarge_rearOverhang}m on right lane 1 in the predefined route 'VRU_Intersection_Farside' from RouteCatalog,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Farside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates laneId=""-1"" pathS=""${$Road_armLength+$_Road_radiusCenter+$Road_laneWidth/2+$Obstruction_distance+$_ObstructionLarge_rearOverhang}"" laneOffset=""${-$VRU_lateralDist-$ObstructionLarge_width/2-$VRU_width/2+$Road_laneWidth}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$ObstructionLarge_length+$Obstruction_gap}m longitudinally and ${-1*($ObstructionSmall_width/2-$ObstructionLarge_width/2)}m laterally relative to ObstructionLarge,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""ObstructionLarge"" dx=""${$ObstructionLarge_length+$Obstruction_gap}"" dy=""${-1*($ObstructionSmall_width/2-$ObstructionLarge_width/2)}"">
+                </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_VRU_initSm on right lane 1 in the predefined route 'VRU_Intersection_Nearside' from RouteCatalog,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference entryName=""VRU_Intersection_Nearside"" catalogName=""RouteCatalog"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates laneId=""-1"" pathS=""$_VRU_initS"" laneOffset=""$_VRU_laneOffset"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$Road_armLength+$_Road_radiusCenter+$Road_laneWidth/2+$VRU_steadyStateDist+$_ObstructionLarge_rearOverhang}m on right lane 1 in the predefined route 'VRU_Intersection_Farside' from RouteCatalog,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Farside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates laneId=""-1"" pathS=""${$Road_armLength+$_Road_radiusCenter+$Road_laneWidth/2+$VRU_steadyStateDist+$_ObstructionLarge_rearOverhang}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined trajectory 'VRU_CPx' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CPx"">
+          <ParameterAssignments>
+            <ParameterAssignment value=""$_VRU_initS"" parameterRef=""VRU_initS"" />
+            <ParameterAssignment value=""${-$VRU_initLatDist}"" parameterRef=""VRU_latDist"" />
+            <ParameterAssignment value=""$VRU_trajectoryOrientation"" parameterRef=""trajectoryOrientation"" />
+          </ParameterAssignments>
+        </CatalogReference>
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at $_ObstructionSmall_initSm on right lane 1 of road 0 (lateral offset $_Obstruction_latDistm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""$_ObstructionSmall_initS"" offset=""$_Obstruction_latDist"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_ObstructionLarge_initDistm longitudinally and 0 lanes laterally from ObstructionSmall's lane (lateral offset $_Obstruction_latDistm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""ObstructionSmall"" dLane=""0"" offset=""$_Obstruction_latDist"" ds=""$_ObstructionLarge_initDist"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined trajectory 'Ego_CPRx' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CPRx"">
+          <ParameterAssignments>
+            <ParameterAssignment parameterRef=""start_S"" value=""${$collisionPoint_S+$Ego_initDist}"" />
+            <ParameterAssignment parameterRef=""roadID"" value=""0"" />
+          </ParameterAssignments>
+        </CatalogReference>
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at ${$collisionPoint_S+$Ego_initDist}m longitudinally and 0m laterally on road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RoadPosition roadId=""0"" s=""${$collisionPoint_S+$Ego_initDist}"" t=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined trajectory 'VRU_CPRx' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CPRx"">
+          <ParameterAssignments>
+            <ParameterAssignment parameterRef=""start_t"" value=""${-1*$VRU_collisionDist}"" />
+            <ParameterAssignment parameterRef=""start_s"" value=""${$collisionPoint_S-$VRU_width/2}"" />
+          </ParameterAssignments>
+        </CatalogReference>
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at ${-1*$Ego_initDist}m longitudinally and $_VRU_lateralOffsetm laterally relative to Ego,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""Ego"" dx=""${-1*$Ego_initDist}"" dy=""$_VRU_lateralOffset"">
+        <Orientation type=""relative"" h=""$VRU_orientation"" />
+      </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined trajectory 'VRU_CxTfx' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CxTfx"">
+          <ParameterAssignments>
+            <ParameterAssignment value=""$Road_laneWidth"" parameterRef=""laneWidth"" />
+            <ParameterAssignment value=""$Road_armLength"" parameterRef=""armLength"" />
+            <ParameterAssignment value=""$Road_radius"" parameterRef=""roadRadius"" />
+            <ParameterAssignment value=""$_Trajectory_tStart"" parameterRef=""tStart"" />
+            <ParameterAssignment value=""${$VRU_centerlineOffset*$Ego_turningDirection}"" parameterRef=""centerlineOffset"" />
+            <ParameterAssignment value=""$VRU_trajectoryDirection"" parameterRef=""trajectoryOrientation"" />
+          </ParameterAssignments>
+        </CatalogReference>
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at ${$_Ego_speed*$Ego_initTTC+$_triggerDist}m longitudinally and 0 lanes laterally from Ego's lane (lateral offset $_Target_latOffsetm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" offset=""$_Target_latOffset"" ds=""${$_Ego_speed*$Ego_initTTC+$_triggerDist}"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined trajectory 'Ego_CxCscp' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction initialDistanceOffset=""$_Ego_initS"">
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CxCscp"" />
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+along the predefined trajectory '$Target_trajectory' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction initialDistanceOffset=""$_Target_initS"">
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""$Target_trajectory"" />
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at ${$Road_armLength+$IntersectionLength/2-$ImpactSide*$Road_laneWidth/2-$_ObstructionVehicle_Large_frontBumperLon-22.5000+$ImpactSide*1.5}m on right lane 1 of road 0 (lateral offset ${$Road_laneWidth/2+$ImpactSide*($Road_laneWidth/2+2+$ObstructionVehicle_Large_width/2)}m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""${$Road_armLength+$IntersectionLength/2-$ImpactSide*$Road_laneWidth/2-$_ObstructionVehicle_Large_frontBumperLon-22.5000+$ImpactSide*1.5}"" offset=""${$Road_laneWidth/2+$ImpactSide*($Road_laneWidth/2+2+$ObstructionVehicle_Large_width/2)}"">
+        <Orientation type=""relative"" h=""${2*pi}"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${($_ObstructionVehicle_Large_rearBumperLon-$_ObstructionVehicle_Small_frontBumperLon-1)}m longitudinally and ${$ImpactSide*(-$ObstructionVehicle_Large_width/2+$ObstructionVehicle_Small_width/2)}m laterally relative to ObstructionVehicle_Large,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""ObstructionVehicle_Large"" dx=""${($_ObstructionVehicle_Large_rearBumperLon-$_ObstructionVehicle_Small_frontBumperLon-1)}"" dy=""${$ImpactSide*(-$ObstructionVehicle_Large_width/2+$ObstructionVehicle_Small_width/2)}"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${($_ObstructionVehicle_Small_rearBumperLon-$_ObstructionVehicle_Small_frontBumperLon-1)}m longitudinally and 0m laterally relative to ObstructionVehicle_Small,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""ObstructionVehicle_Small"" dx=""${($_ObstructionVehicle_Small_rearBumperLon-$_ObstructionVehicle_Small_frontBumperLon-1)}"" dy=""0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_Target_initDistm longitudinally and $_Target_offsetm laterally relative to Ego,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeRoadPosition entityRef=""Ego"" ds=""$_Target_initDist"" dt=""$_Target_offset"">
+        <Orientation h=""${pi}"" />
+      </RelativeRoadPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$Ego_initTimeHeadway*$_Ego_speed}m longitudinally and 0 lanes laterally from Ego's lane (lateral offset $_Target_offsetm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" offset=""$_Target_offset"" ds=""${$Ego_initTimeHeadway*$_Ego_speed}"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $_Ego_initSm on right lane 1 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""$_Ego_initS"">
+                </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+along the predefined trajectory 'VRU_CPx' from TrajectoryCatalog,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CPx"">
+          <ParameterAssignments>
+            <ParameterAssignment value=""$VRU_initS"" parameterRef=""VRU_initS"" />
+            <ParameterAssignment value=""${-$VRU_initLatDist}"" parameterRef=""VRU_latDist"" />
+            <ParameterAssignment value=""$VRU_trajectoryOrientation"" parameterRef=""trajectoryOrientation"" />
+          </ParameterAssignments>
+        </CatalogReference>
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+at 0.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""0.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 20.0m on right lane 1 of road 1 (lateral offset -1.0m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""20.0"" offset=""-1.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 24.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""24.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 28.0m on right lane 1 of road 1 (lateral offset -1.0m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""28.0"" offset=""-1.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 32.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""32.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 36.0m on right lane 1 of road 1 (lateral offset -1.0m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""36.0"" offset=""-1.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 40.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""40.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 44.0m on right lane 1 of road 1 (lateral offset -1.0m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""44.0"" offset=""-1.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 48.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""48.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 52.0m on right lane 1 of road 1 (lateral offset -1.0m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""52.0"" offset=""-1.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 56.0m on right lane 1 of road 1,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""-1"" s=""56.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 40.0m on left lane 2 of road 1 (lateral offset 2.0m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""1"" laneId=""2"" s=""40.0"" offset=""2.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 50.0m on left lane 5 of road 48,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""48"" laneId=""5"" s=""50.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 20.0m on left lane 5 of road 49,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""49"" laneId=""5"" s=""20.0"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 5.0m on right lane 4 of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-4"" offset=""0.0"" s=""5.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${(2.0 * ($Ego_InitSpeed_Ve0_kph / 3.6)) + 5.0}m longitudinally and 0 lanes laterally from Ego's lane,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" ds=""${(2.0 * ($Ego_InitSpeed_Ve0_kph / 3.6)) + 5.0}"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $SideVehicle_InitLongitudinalOffset_mm longitudinally and $SideVehicle_InitPosition_RelativeLaneId lanes laterally from Ego's lane (lateral offset ${$SideVehicle_InitPosition_RelativeLaneId * -$SideVehicle_InitLateralOffset_m}m),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""$SideVehicle_InitPosition_RelativeLaneId"" ds=""$SideVehicle_InitLongitudinalOffset_m"" offset=""${$SideVehicle_InitPosition_RelativeLaneId * -$SideVehicle_InitLateralOffset_m}"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at 5.0m on lane $Ego_InitPosition_LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""0.0"" s=""5.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $TargetBlocking_InitPosition_LongitudinalOffset_mm on lane $Ego_InitPosition_LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""0.0"" s=""$TargetBlocking_InitPosition_LongitudinalOffset_m"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $TargetBlocking_InitPosition_LongitudinalOffset_mm on lane $Ego_InitPosition_LaneId of road 0 (lateral offset $TargetBlocking_InitPosition_LateralOffset_mm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""$TargetBlocking_InitPosition_LateralOffset_m"" s=""$TargetBlocking_InitPosition_LongitudinalOffset_m"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $TargetBlocking_InitPosition_LongitudinalOffset_mm on lane $Ego_InitPosition_LaneId of road 0 (lateral offset $TargetBlocking_InitPosition_LateralOffset_mm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""$TargetBlocking_InitPosition_LateralOffset_m"" s=""$TargetBlocking_InitPosition_LongitudinalOffset_m"">
+        <Orientation h=""$TargetBlocking_InitPosition_Heading_rad"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$TargetBlocking_InitPosition_LongitudinalOffset_m + 15.0}m on lane $Ego_InitPosition_LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""0.0"" s=""${$TargetBlocking_InitPosition_LongitudinalOffset_m + 15.0}"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${($LeadVehicle_Init_HeadwayTime_s * ($Ego_InitSpeed_Ve0_kph / 3.6)) + 5.0}m longitudinally and 0 lanes laterally from Ego's lane (lateral offset $LeadVehicle_Init_LateralOffset_mm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" ds=""${($LeadVehicle_Init_HeadwayTime_s * ($Ego_InitSpeed_Ve0_kph / 3.6)) + 5.0}"" offset=""$LeadVehicle_Init_LateralOffset_m"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${$CutInVehicle_HeadwayDistanceTrigger_dx0_m + (-10.0 * ($CutInVehicle_RelativeInitSpeed_Ve0_Vo0_kph / 3.6))}m longitudinally and $CutInVehicle_InitPosition_RelativeLaneId lanes laterally from Ego's lane,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""$CutInVehicle_InitPosition_RelativeLaneId"" ds=""${$CutInVehicle_HeadwayDistanceTrigger_dx0_m + (-10.0 * ($CutInVehicle_RelativeInitSpeed_Ve0_Vo0_kph / 3.6))}"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $TargetBlocking_InitPosition_LongitudinalOffset_mm on lane $Ego_InitPosition_LaneId of road 0,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""0.0"" s=""$TargetBlocking_InitPosition_LongitudinalOffset_m"">
+        <Orientation h=""0.0"" />
+      </LanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at ${2.0 * ($Ego_InitSpeed_Ve0_kph / 3.6)}m longitudinally and 0 lanes laterally from Ego's lane,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" ds=""${2.0 * ($Ego_InitSpeed_Ve0_kph / 3.6)}"" offset=""0.0"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+at $SideVehicle_InitLongitudinalOffset_mm longitudinally and 0 lanes laterally from Ego's lane (lateral offset $SideVehicle_InitLateralOffset_mm),"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""Ego"" dLane=""0"" ds=""$SideVehicle_InitLongitudinalOffset_m"" offset=""$SideVehicle_InitLateralOffset_m"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"

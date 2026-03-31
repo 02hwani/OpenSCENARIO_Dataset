@@ -1,0 +1,148 @@
+﻿description,code
+vehicle is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""vehicle"" />
+</Actors>"
+adversary is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""adversary"" />
+</Actors>"
+,"<Actors selectTriggeringEntities=""false"" />"
+hero is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""hero"" />
+</Actors>"
+EgoVehicle is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""EgoVehicle"" />
+</Actors>"
+ChallengingVehicle is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""ChallengingVehicle"" />
+</Actors>"
+Target is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Target"" />
+</Actors>"
+$owner is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""$owner"" />
+</Actors>"
+Ego is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Ego"" />
+</Actors>"
+Target1 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Target1"" />
+</Actors>"
+Dummy is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Dummy"" />
+</Actors>"
+bike is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""bike"" />
+</Actors>"
+A2 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""A2"" />
+</Actors>"
+A3 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""A3"" />
+</Actors>"
+Truck is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Truck"" />
+</Actors>"
+Target2 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Target2"" />
+</Actors>"
+OverTaker is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""OverTaker"" />
+</Actors>"
+NPC is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""NPC"" />
+</Actors>"
+pedestrian_adult is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""pedestrian_adult"" />
+</Actors>"
+Car1 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Car1"" />
+</Actors>"
+Car2 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Car2"" />
+</Actors>"
+NPC1 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""NPC1"" />
+</Actors>"
+NPC2 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""NPC2"" />
+</Actors>"
+NPC3 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""NPC3"" />
+</Actors>"
+NPC4 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""NPC4"" />
+</Actors>"
+Pedestrian_1 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Pedestrian_1"" />
+</Actors>"
+Pedestrian_2 is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Pedestrian_2"" />
+</Actors>"
+Car is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""Car"" />
+</Actors>"
+GVT is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""GVT"" />
+</Actors>"
+SOV is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""SOV"" />
+</Actors>"
+,"<Actors selectTriggeringEntities=""false"">
+</Actors>"
+VRU is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""VRU"" />
+</Actors>"
+indiv0Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv0Pedestrian"" />
+</Actors>"
+indiv1Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv1Pedestrian"" />
+</Actors>"
+indiv2Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv2Pedestrian"" />
+</Actors>"
+indiv3Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv3Pedestrian"" />
+</Actors>"
+indiv4Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv4Pedestrian"" />
+</Actors>"
+indiv5Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv5Pedestrian"" />
+</Actors>"
+indiv6Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv6Pedestrian"" />
+</Actors>"
+indiv7Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv7Pedestrian"" />
+</Actors>"
+indiv8Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv8Pedestrian"" />
+</Actors>"
+indiv9Pedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv9Pedestrian"" />
+</Actors>"
+__pedestrianPedestrian is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""__pedestrianPedestrian"" />
+</Actors>"
+ego_vehicle is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""ego_vehicle"" />
+</Actors>"
+___cutInCar is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""___cutInCar"" />
+</Actors>"
+indiv__cutInCar is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""indiv__cutInCar"" />
+</Actors>"
+LeadVehicle is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""LeadVehicle"" />
+</Actors>"
+TargetBlocking is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""TargetBlocking"" />
+</Actors>"
+CutInVehicle is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""CutInVehicle"" />
+</Actors>"
+SideVehicle is,"<Actors selectTriggeringEntities=""false"">
+  <EntityRef entityRef=""SideVehicle"" />
+</Actors>"

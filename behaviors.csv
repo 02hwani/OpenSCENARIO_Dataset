@@ -1,0 +1,2220 @@
+﻿description,code
+changes the speed to 10.0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""3"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""10.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 0.0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""5"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 2.0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""6.5"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""2.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 0.0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""10"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 2.0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1.5"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""2.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to $leadingSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""20"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$leadingSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to $leadingSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""50"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$leadingSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"performs a routing maneuver  in order to reach the target point (absolute coordinates (x=92, y=13.5)).for the purpose of AcquirePosition to autonomously find and move the path.","<PrivateAction>
+  <RoutingAction>
+    <AcquirePositionAction>
+      <Position>
+        <WorldPosition x=""92"" y=""13.5"" z=""0"" h=""0"" />
+      </Position>
+    </AcquirePositionAction>
+  </RoutingAction>
+</PrivateAction>"
+"synchronizes at the point when the master object (hero) reaches the absolute coordinates (x=103, y=55). its running speed at a relative speed of 3 m/s compared to the master so that it reaches the absolute coordinates (x=92, y=63.8).","<PrivateAction>
+  <SynchronizeAction masterEntityRef=""hero"">
+    <TargetPositionMaster>
+      <WorldPosition x=""103"" y=""55"" z=""0"" h=""3.14159"" />
+    </TargetPositionMaster>
+    <TargetPosition>
+      <WorldPosition x=""92"" y=""63.8"" z=""0"" h=""-1.56"" />
+    </TargetPosition>
+    <FinalSpeed>
+      <RelativeSpeedToMaster value=""3"" speedTargetValueType=""delta"" />
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+changes the speed to 5.0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""50"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""5.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to the right lane of the adversary.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""linear"" value=""25"" dynamicsDimension=""distance"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""adversary"" value=""-1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed to 10m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""10000"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""10"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 10.0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""1.5"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""10.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to $leadingSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""30"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$leadingSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 10m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""10"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""10"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+moves 2.0 m to the right of hero.,"<PrivateAction>
+  <LateralAction>
+    <LateralDistanceAction entityRef=""hero"" continuous=""true"" distance=""-2.0"" freespace=""false"">
+      <DynamicConstraints maxAcceleration=""1.0"" maxDeceleration=""1.0"" maxSpeed=""2.0"" />
+    </LateralDistanceAction>
+  </LateralAction>
+</PrivateAction>"
+activates longitudinal and lateral controllers.,"<PrivateAction>
+  <ActivateControllerAction lateral=""true"" longitudinal=""true"" />
+</PrivateAction>"
+accelerates and decelerates smoothly over $ChallengingVehicle_SpeedChangeDuration seconds and changes the speed to $ChallengingVehicle_TargetSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""cubic"" value=""$ChallengingVehicle_SpeedChangeDuration"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$ChallengingVehicle_TargetSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to $ChallengingVehicle_TargetSpeedm/s linearly at a rate of $ChallengingVehicle_TargetSpeedChangeRatem/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""$ChallengingVehicle_TargetSpeedChangeRate"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$ChallengingVehicle_TargetSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to EgoVehicle's lane.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction targetLaneOffset=""$ChallengingVehicle_TargetLaneOffset"">
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""$ChallengingVehicle_LaneChangeDistance"" dynamicsDimension=""distance"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""EgoVehicle"" value=""0"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $ChallengingVehicle_SwerveOffset1m relative to the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""true"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$ChallengingVehicle_SwerveLateralAcceleration"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$ChallengingVehicle_SwerveOffset1"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $ChallengingVehicle_SwerveOffset2m relative to the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""true"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$ChallengingVehicle_SwerveLateralAcceleration"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$ChallengingVehicle_SwerveOffset2"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $ChallengingVehicle_SwerveOffset3m based on the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""true"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$ChallengingVehicle_SwerveLateralAcceleration"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$ChallengingVehicle_SwerveOffset3"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $ChallengingVehicle_SwerveOffset4m based on the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""true"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$ChallengingVehicle_SwerveLateralAcceleration"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$ChallengingVehicle_SwerveOffset4"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $ChallengingVehicle_SwerveOffset5m based on the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""true"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$ChallengingVehicle_SwerveLateralAcceleration"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$ChallengingVehicle_SwerveOffset5"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $ChallengingVehicle_SwerveOffset6m relative to the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""true"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$ChallengingVehicle_SwerveLateralAcceleration"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$ChallengingVehicle_SwerveOffset6"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+"from the opponent lane (dLane=0, dsLane=0.0), the opponent lane (dLane=0, dsLane=${$traj_length*0.2}), the opponent lane (dLane=0, dsLane=${$traj_length*0.6}), the opponent lane (dLane=0, dsLane=${$traj_length*0.8}), the opponent lane (dLane=0, dsLane=${$traj_length}) Runs flexibly along a smooth NURBS trajectory of order 4 passing through the control point.","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TrajectoryRef>
+        <Trajectory name=""trajectory"" closed=""false"">
+          <Shape>
+            <Nurbs order=""4"">
+              <ControlPoint weight=""1.0"">
+                <Position>
+                  <RelativeLanePosition entityRef=""$entity_name"" dsLane=""0.0"" offset=""0.0"" dLane=""0"" />
+                </Position>
+              </ControlPoint>
+              <ControlPoint weight=""1.0"">
+                <Position>
+                  <RelativeLanePosition entityRef=""$entity_name"" dsLane=""${$traj_length*0.2}"" offset=""${$cutin_direction*$lane_width*0.1}"" dLane=""0"" />
+                </Position>
+              </ControlPoint>
+              <ControlPoint weight=""1.0"">
+                <Position>
+                  <RelativeLanePosition entityRef=""$entity_name"" dsLane=""${$traj_length*0.6}"" offset=""${$cutin_direction*$lane_width*0.5}"" dLane=""0"" />
+                </Position>
+              </ControlPoint>
+              <ControlPoint weight=""1.0"">
+                <Position>
+                  <RelativeLanePosition entityRef=""$entity_name"" dsLane=""${$traj_length*0.8}"" offset=""${$cutin_direction*$lane_width*0.9}"" dLane=""0"" />
+                </Position>
+              </ControlPoint>
+              <ControlPoint weight=""1.0"">
+                <Position>
+                  <RelativeLanePosition entityRef=""$entity_name"" dsLane=""${$traj_length}"" offset=""${$cutin_direction*$lane_width}"" dLane=""0"" />
+                </Position>
+              </ControlPoint>
+              <Knot value=""0"" />
+              <Knot value=""0"" />
+              <Knot value=""0"" />
+              <Knot value=""0"" />
+              <Knot value=""0.5"" />
+              <Knot value=""1"" />
+              <Knot value=""1"" />
+              <Knot value=""1"" />
+              <Knot value=""1"" />
+            </Nurbs>
+          </Shape>
+        </Trajectory>
+      </TrajectoryRef>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+"controls the acceleration and deceleration of the vehicle  ${0.3666666666666667*$traj_length/$target_init_speed} seconds at ${0.8*$target_init_speed}m/s, ${0.44*$traj_length/$target_init_speed} second time ${0.7*$target_init_speed}m/s, ${0.4533333333333333*$traj_length/$target_init_speed} second time point ${0.8*$target_init_speed}m/s, ${0*$traj_length/$target_init_speed} second time point ${1*$target_init_speed}m/s, ${0.3666666666666667*$traj_length/$target_init_speed} seconds ${0.8*$target_init_speed}m/s, ${0.44*$traj_length/$target_init_speed} seconds ${0.7*$target_init_speed}m/s.in detail at ${0.4533333333333333*$traj_length/$target_init_speed} seconds (${0.8*$target_init_speed}m/s). based on predefined dynamic speed profiles (${1*$target_init_speed}m/s at ${0*$traj_length/$target_init_speed} seconds","<PrivateAction>
+  <LongitudinalAction>
+    <SpeedProfileAction followingMode=""position"">
+      <SpeedProfileEntry speed=""${1*$target_init_speed}"" time=""${0*$traj_length/$target_init_speed}"" />
+      <SpeedProfileEntry speed=""${0.8*$target_init_speed}"" time=""${0.3666666666666667*$traj_length/$target_init_speed}"" />
+      <SpeedProfileEntry speed=""${0.7*$target_init_speed}"" time=""${0.44*$traj_length/$target_init_speed}"" />
+      <SpeedProfileEntry speed=""${0.8*$target_init_speed}"" time=""${0.4533333333333333*$traj_length/$target_init_speed}"" />
+    </SpeedProfileAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"drives precisely (FollowTrajectory) along a straight line (Polyline) trajectory that moves in order from the opponent lane (dLane=0, dsLane=0.0) to the opponent lane (dLane=0, dsLane=0.1).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TrajectoryRef>
+        <Trajectory name=""${$entity_name + straightening trajectory}"" closed=""false"">
+          <Shape>
+            <Polyline>
+              <Vertex>
+                <Position>
+                  <RelativeLanePosition entityRef=""$entity_name"" dsLane=""0.0"" offset=""0.0"" dLane=""0"" />
+                </Position>
+              </Vertex>
+              <Vertex>
+                <Position>
+                  <RelativeLanePosition entityRef=""$entity_name"" dsLane=""0.1"" offset=""0.0"" dLane=""0"" />
+                </Position>
+              </Vertex>
+            </Polyline>
+          </Shape>
+        </Trajectory>
+      </TrajectoryRef>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+changes to the left lane of Ego.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""1.5"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to Ego’s lane.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""1.4"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""0"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed to 0m/s linearly at a rate of -4m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""-4"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 50m/s linearly at a rate of 10m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""10"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""50"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 5m/s linearly at a rate of 8m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""-8"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""5"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 1m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""1"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to ${0.25 * $EgoSpeed ​​/ 3.6}m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${0.25 * $EgoSpeed / 3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to Ego’s lane.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""3.0"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""0"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed to 0m/s linearly at a rate of $TargetBrakeRatem/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""$TargetBrakeRate"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+sets 'sloppyDriver' controller.,"<PrivateAction>
+  <ControllerAction>
+    <AssignControllerAction>
+      <CatalogReference catalogName=""ControllerCatalog"" entryName=""sloppyDriver"">
+        <ParameterAssignments>
+          <ParameterAssignment parameterRef=""$Sloppiness"" value=""0.7"" />
+        </ParameterAssignments>
+      </CatalogReference>
+    </AssignControllerAction>
+  </ControllerAction>
+</PrivateAction>"
+activates lateral controller.,"<PrivateAction>
+  <ActivateControllerAction longitudinal=""false"" lateral=""true"" />
+</PrivateAction>"
+sets 'interactiveDriver' controller.,"<PrivateAction>
+  <ControllerAction>
+    <AssignControllerAction>
+      <CatalogReference catalogName=""ControllerCatalog"" entryName=""interactiveDriver"" />
+    </AssignControllerAction>
+  </ControllerAction>
+</PrivateAction>"
+activates longitudinal controller.,"<PrivateAction>
+  <ActivateControllerAction longitudinal=""true"" lateral=""false"" />
+</PrivateAction>"
+sets 'sloppyDriver' controller.,"<PrivateAction>
+  <ControllerAction>
+    <AssignControllerAction>
+      <CatalogReference catalogName=""ControllerCatalog"" entryName=""sloppyDriver"">
+        <ParameterAssignments>
+          <ParameterAssignment parameterRef=""$Sloppiness"" value=""0.4"" />
+        </ParameterAssignments>
+      </CatalogReference>
+    </AssignControllerAction>
+  </ControllerAction>
+</PrivateAction>"
+deactivates longitudinal and lateral controllers.,"<PrivateAction>
+  <ActivateControllerAction longitudinal=""false"" lateral=""false"" />
+</PrivateAction>"
+changes the speed to Ego's $TargetSpeedFactor times the speed.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Ego"" value=""$TargetSpeedFactor"" speedTargetValueType=""factor"" continuous=""true"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to Ego’s lane.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""3"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""0"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed to 1.2 times the Ego speed.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Ego"" value=""1.2"" speedTargetValueType=""factor"" continuous=""true"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 0m/s linearly at a rate of -5m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""-5"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+accelerates and decelerates smoothly over 6 seconds and changes the speed to 25m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""sinusoidal"" value=""6"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""25"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+never changes to -3 lanes on the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsDimension=""time"" dynamicsShape=""sinusoidal"" value=""4"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""-3"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed to 20 m/s linearly over 10 seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""linear"" value=""10"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""20"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"sets visibility to display graphics, hide sensors, or display traffic.","<PrivateAction>
+  <VisibilityAction sensors=""false"" graphics=""true"" traffic=""true"" />
+</PrivateAction>"
+"sets visibility to hide graphics, show sensors, or show traffic.","<PrivateAction>
+  <VisibilityAction graphics=""false"" sensors=""true"" traffic=""true"" />
+</PrivateAction>"
+"sets visibility with graphical display, sensor display, and traffic display.","<PrivateAction>
+  <VisibilityAction graphics=""true"" sensors=""true"" traffic=""true"" />
+</PrivateAction>"
+maintains a distance of $Gap_dist1m from Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction continuous=""true"" entityRef=""Ego"" distance=""$Gap_dist1"" freespace=""true"">
+      <DynamicConstraints maxAcceleration=""$Max_acc"" maxDeceleration=""$Max_ret"" maxSpeed=""40"" />
+    </LongitudinalDistanceAction>
+  </LongitudinalAction>
+</PrivateAction>"
+maintains a distance of $Gap_dist2m from Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction continuous=""false"" entityRef=""Ego"" distance=""$Gap_dist2"" freespace=""true"" displacement=""trailingReferencedEntity"">
+      <DynamicConstraints maxAcceleration=""$Max_acc"" maxDeceleration=""$Max_ret"" maxSpeed=""40"" />
+    </LongitudinalDistanceAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"moves near bike-based object coordinates (dx:0, dy:0).","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""bike"" dx=""0"" dy=""0"" dz=""-0.1"">
+        <Orientation type=""relative"" r=""1.57"" />
+      </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+changes the speed to 0m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed linearly to 40 m/s over 2 seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""2"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""40"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed linearly to ${100/3.6}m/s over 2 seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""2"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${100/3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to absolute -2 lanes of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""2"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""-2"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+never changes to -3 lanes on the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""2"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""-3"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed linearly to 10 m/s over 2 seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""2"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""10"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 0m/s linearly at a rate of 10m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""10"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+never changes to lane 1 of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""step"" value=""$lane_change_duration"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to the absolute -1 lane of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""linear"" value=""$lane_change_duration"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""-1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+never changes to lane 1 of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""$lane_change_duration"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to the absolute -1 lane of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""cubic"" value=""$lane_change_duration"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""-1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed to ${70/3.6}m/s linearly at a rate of 5.0m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""5.0"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${70/3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 0.0m/s linearly at a rate of 8.0m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""8.0"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to absolute -2 lanes of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""2.8"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""-2"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+maintains a distance of m from A1.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction continuous=""true"" entityRef=""A1"" timeGap=""1"" freespace=""true"">
+      <DynamicConstraints maxAcceleration=""2"" maxDeceleration=""5"" maxSpeed=""40"" />
+    </LongitudinalDistanceAction>
+  </LongitudinalAction>
+</PrivateAction>"
+maintains a distance of m from A2.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction continuous=""true"" entityRef=""A2"" timeGap=""1.5"" freespace=""true"">
+      <DynamicConstraints maxAcceleration=""2"" maxDeceleration=""5"" maxSpeed=""40"" />
+    </LongitudinalDistanceAction>
+  </LongitudinalAction>
+</PrivateAction>"
+maintains $gap_smallm distance from A2.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction continuous=""true"" entityRef=""A2"" distance=""$gap_small"" freespace=""false"">
+      <DynamicConstraints maxAcceleration=""$max_acc"" maxDeceleration=""$max_ret"" maxSpeed=""$max_speed"" />
+    </LongitudinalDistanceAction>
+  </LongitudinalAction>
+</PrivateAction>"
+maintains $gap_normalm distance from A2.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction continuous=""true"" entityRef=""A2"" distance=""$gap_normal"" freespace=""false"">
+      <DynamicConstraints maxAcceleration=""$max_acc"" maxDeceleration=""$max_ret"" maxSpeed=""$max_speed"" />
+    </LongitudinalDistanceAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"follows a curved trajectory with predefined parameters (starting curvature ${1.0/$ArcRadius}, length $ArcLengthm).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TrajectoryRef>
+        <Trajectory name=""LaneChangePart1"" closed=""false"">
+          <ParameterDeclarations />
+          <Shape>
+            <Clothoid curvature=""${1.0/$ArcRadius}"" curvaturePrime=""0.0"" length=""$ArcLength"">
+              <Position>
+                <RelativeObjectPosition entityRef=""Car"" dx=""0"" dy=""0"" />
+              </Position>
+            </Clothoid>
+          </Shape>
+        </Trajectory>
+      </TrajectoryRef>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+"follows a curved trajectory with predefined parameters (starting curvature 0.0, length $LineLengthm).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TrajectoryRef>
+        <Trajectory name=""LaneChangePart2"" closed=""false"">
+          <ParameterDeclarations />
+          <Shape>
+            <Clothoid curvature=""0.0"" curvaturePrime=""0.0"" length=""$LineLength"">
+              <Position>
+                <RelativeObjectPosition entityRef=""Car"" dx=""0"" dy=""0"">
+                  <Orientation type=""relative"" h=""0.0"" />
+                </RelativeObjectPosition>
+              </Position>
+            </Clothoid>
+          </Shape>
+        </Trajectory>
+      </TrajectoryRef>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+"follows a curved trajectory with predefined parameters (starting curvature ${-1.0/$ArcRadius}, length $ArcLengthm).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TrajectoryRef>
+        <Trajectory name=""LaneChangePart3"" closed=""false"">
+          <ParameterDeclarations />
+          <Shape>
+            <Clothoid curvature=""${-1.0/$ArcRadius}"" curvaturePrime=""0.0"" length=""$ArcLength"">
+              <Position>
+                <RelativeObjectPosition entityRef=""Car"" dx=""0"" dy=""0"">
+                  <Orientation type=""relative"" h=""0.0"" />
+                </RelativeObjectPosition>
+              </Position>
+            </Clothoid>
+          </Shape>
+        </Trajectory>
+      </TrajectoryRef>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+changes to the left lane of Ego.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""2"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+drives at an offset of 8m from the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""false"">
+      <LaneOffsetActionDynamics dynamicsShape=""sinusoidal"" maxLateralAcc=""3.5"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""8"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+never changes to lane 1 of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""cubic"" value=""3"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to the left lane of Truck.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""2"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Truck"" value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to Target1 lane.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""cubic"" value=""2"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Target1"" value=""0"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+never changes to lane 1 of the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""4"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <AbsoluteTargetLane value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+moves to the -10m point in the -1st lane of the road.,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <LanePosition roadId=""0"" laneId=""-1"" offset=""0"" s=""10"" />
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+accelerates and decelerates smoothly over 4 seconds and changes the speed to 25m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""cubic"" value=""4"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""25"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to the left lane of OverTaker.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""2"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""OverTaker"" value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the first lane of road 0 (s=$EgoSyncPoint1S). its driving speed with the absolute speed $NPCFinalSpeedm/s to reach the path 'TargetLeftTurnRoute'.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"" targetToleranceMaster=""1.0"" targetTolerance=""1.0"">
+    <TargetPositionMaster>
+      <LanePosition roadId=""0"" laneId=""1"" offset=""0"" s=""$EgoSyncPoint1S"" />
+    </TargetPositionMaster>
+    <TargetPosition>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RoutesAtFabriksgatan"" entryName=""TargetLeftTurnRoute"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromLaneCoordinates pathS=""203"" laneId=""-1"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$NPCFinalSpeed"" />
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+changes the speed to $PedestrianSpeedm/s linearly at a rate of 2m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""2"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$PedestrianSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"drives precisely (FollowTrajectory) along a straight line (Polyline) trajectory moving from the 3rd lane of Road 0 (s=15) to the 3rd lane of Road 0 (s=10.5), 3rd lane of Road 0 (s=10), -3 lane of Road 0 (s=10), -3 lane of Road 0 (s=9.5), and -3 lane of Road 0 (s=7.5).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""ped_traj"">
+        <ParameterDeclarations />
+        <Shape>
+          <Polyline>
+            <Vertex>
+              <Position>
+                <LanePosition laneId=""3"" offset=""0.5"" roadId=""0"" s=""15"">
+                  <Orientation type=""relative"" h=""0"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition laneId=""3"" offset=""0.5"" roadId=""0"" s=""10.5"">
+                  <Orientation type=""relative"" h=""0"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition laneId=""3"" offset=""0.0"" roadId=""0"" s=""10"">
+                  <Orientation type=""relative"" h=""1.57"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition laneId=""-3"" offset=""0.0"" roadId=""0"" s=""10"">
+                  <Orientation type=""relative"" h=""4.71"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition laneId=""-3"" offset=""-0.5"" roadId=""0"" s=""9.5"">
+                  <Orientation type=""relative"" h=""3.14"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition laneId=""-3"" offset=""-0.5"" roadId=""0"" s=""7.5"">
+                  <Orientation type=""relative"" h=""3.14"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+          </Polyline>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+changes the speed to 0m/s linearly at a rate of -5.1m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""-5.1"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"drives precisely (FollowTrajectory) along a straight line (Polyline) trajectory moving from the 3rd lane of road 0 (s=15) to the 3rd lane of road 0 (s=10.5), the 3rd lane of road 0 (s=10), the -3 lane of road 0 (s=10), the -3 lane of road 0 (s=9.5), and the -3 lane of road 0 (s=0).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""ped_traj"">
+        <ParameterDeclarations />
+        <Shape>
+          <Polyline>
+            <Vertex time=""0"">
+              <Position>
+                <LanePosition laneId=""3"" offset=""0.5"" roadId=""0"" s=""15"">
+                  <Orientation type=""relative"" h=""0"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""0"">
+              <Position>
+                <LanePosition laneId=""3"" offset=""0.5"" roadId=""0"" s=""10.5"">
+                  <Orientation type=""relative"" h=""0"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""0"">
+              <Position>
+                <LanePosition laneId=""3"" offset=""0.0"" roadId=""0"" s=""10"">
+                  <Orientation type=""relative"" h=""1.57"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""0"">
+              <Position>
+                <LanePosition laneId=""-3"" offset=""0.0"" roadId=""0"" s=""10"">
+                  <Orientation type=""relative"" h=""4.71"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""0"">
+              <Position>
+                <LanePosition laneId=""-3"" offset=""-0.5"" roadId=""0"" s=""9.5"">
+                  <Orientation type=""relative"" h=""3.14"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex time=""0"">
+              <Position>
+                <LanePosition laneId=""-3"" offset=""-0.5"" roadId=""0"" s=""0"">
+                  <Orientation type=""relative"" h=""3.14"" p=""0"" r=""0"" />
+                </LanePosition>
+              </Position>
+            </Vertex>
+          </Polyline>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+"moves to the vicinity of the object coordinates (dx:0.0, dy:0.0) based on pedestrian_adult.","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""pedestrian_adult"" dx=""0.0"" dy=""0.0"" dz=""0.0"">
+        <Orientation type=""relative"" r=""1.57"" h=""0"" p=""0"" />
+      </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"moves near the object coordinates (dx:0, dy:0) based on pedestrian_adult.","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""pedestrian_adult"" dx=""0"" dy=""0"" dz=""0.1"">
+        <Orientation type=""relative"" r=""-1.57"" h=""0"" p=""0"" />
+      </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+"in order to reach the target point (lane -1 (s=40) of road 242), a routing maneuver for the purpose of AcquirePosition is performed to autonomously find a route and move.","<PrivateAction>
+  <RoutingAction>
+    <AcquirePositionAction>
+      <Position>
+        <LanePosition roadId=""242"" laneId=""-1"" offset=""0"" s=""40"" />
+      </Position>
+    </AcquirePositionAction>
+  </RoutingAction>
+</PrivateAction>"
+changes the speed to 0.0m/s linearly at a rate of 15.0m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""-15.0"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 0m/s linearly at a rate of -6m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""-6"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"precisely controls the acceleration and deceleration of the vehicle 10.0 m/s at 4.0 s, 4.0 m/s at 4.0 s, 8.0 m/s at 2.0 s, 0.0 m/s at 0.0 s, 10.0 m/s at 4.0 s, 4.0 m/s at 4.0 s, 2.0 s at 8.0 m/s). based on predefined dynamic velocity profiles (0.0 m/s at 0.0 s","<PrivateAction>
+  <LongitudinalAction>
+    <SpeedProfileAction followingMode=""follow"">
+      <DynamicConstraints maxAcceleration=""5.0"" maxDeceleration=""10.0"" maxAccelerationRate=""4.0"" maxDecelerationRate=""3.0"" maxSpeed=""50"" />
+      <SpeedProfileEntry time=""0.0"" speed=""0.0"" />
+      <SpeedProfileEntry time=""4.0"" speed=""10.0"" />
+      <SpeedProfileEntry time=""4.0"" speed=""4.0"" />
+      <SpeedProfileEntry time=""2.0"" speed=""8.0"" />
+    </SpeedProfileAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"precisely controls the acceleration and deceleration of the vehicle 10.0 m/s at 4.0 s, 4.0 m/s at 4.0 s, 8.0 m/s at 2.0 s, 0.0 m/s at 0.0 s, 10.0 m/s at 4.0 s, 4.0 m/s at 4.0 s, 2.0 s at 8.0 m/s). based on predefined dynamic velocity profiles (0.0 m/s at 0.0 s","<PrivateAction>
+  <LongitudinalAction>
+    <SpeedProfileAction followingMode=""position"">
+      <DynamicConstraints maxAcceleration=""5.0"" maxDeceleration=""10.0"" maxAccelerationRate=""4.0"" maxDecelerationRate=""3.0"" maxSpeed=""50"" />
+      <SpeedProfileEntry time=""0.0"" speed=""0.0"" />
+      <SpeedProfileEntry time=""4.0"" speed=""10.0"" />
+      <SpeedProfileEntry time=""4.0"" speed=""4.0"" />
+      <SpeedProfileEntry time=""2.0"" speed=""8.0"" />
+    </SpeedProfileAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to $TargetFinalSpeedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$TargetFinalSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the -1st lane (s=6) of road 240. its driving speed with an absolute speed of $TargetFinalSpeedm/s so that it reaches the -1st lane of road 236 (s=12.5).,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <LanePosition roadId=""240"" laneId=""-1"" offset=""1.5"" s=""6"" />
+    </TargetPositionMaster>
+    <TargetPosition>
+      <LanePosition roadId=""236"" laneId=""-1"" offset=""1.5"" s=""12.5"" />
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$TargetFinalSpeed"">
+        <TargetDistanceSteadyState distance=""10"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+${$RedLightDistance - Changes the speed linearly to 0.0m/s over a 6}m travel distance.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""${$RedLightDistance - 6}"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed linearly to 13.889 m/s over 5 seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""5"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""13.889"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 2.0m/s linearly at a rate of 1m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""1"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""2.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"drives precisely (FollowTrajectory) along a straight line (Polyline) trajectory that moves in that order from the -3 lane of Road 3 (s=113) to the 3rd lane of Road 3 (s=110), the 3rd lane of Road 3 (s=109), and the 3rd lane of Road 3 (s=90).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""ped_traj"">
+        <Shape>
+          <Polyline>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""-3"" offset=""0.5"" s=""113"">
+                                                         </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""3"" offset=""-1.0"" s=""110"">
+                                                         </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""3"" offset=""-0.5"" s=""109"">
+                                                         </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""3"" offset=""0.5"" s=""90"" />
+              </Position>
+            </Vertex>
+          </Polyline>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+changes the speed to 3.3 m/s linearly at a rate of 1 m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""1"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""3.3"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"drives precisely (FollowTrajectory) along a straight line (Polyline) trajectory that moves in that order from the 3rd lane of Road 3 (s=110) to the -3rd lane of Road 3 (s=110), the -3rd lane of Road 3 (s=110), and the -3rd lane of Road 3 (s=90).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""ped_traj"">
+        <Shape>
+          <Polyline>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""3"" offset=""-0.5"" s=""110"">
+                                                         </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""-3"" offset=""0.0"" s=""110"">
+                                                         </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""-3"" offset=""-0.5"" s=""110"">
+                                                         </LanePosition>
+              </Position>
+            </Vertex>
+            <Vertex>
+              <Position>
+                <LanePosition roadId=""3"" laneId=""-3"" offset=""-0.5"" s=""90"" />
+              </Position>
+            </Vertex>
+          </Polyline>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+changes the speed to ${-$Speed}m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${-$Speed}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"follows a curved trajectory with predefined parameters (starting curvature ${-1.0/$TrajRadius}, length ${0.25 * 2.0 * 3.141592 * $TrajRadius}m).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""TrajectoryReverse"">
+        <ParameterDeclarations />
+        <Shape>
+          <Clothoid curvature=""${-1.0/$TrajRadius}"" curvatureDot=""0.0"" length=""${0.25 * 2.0 * 3.141592 * $TrajRadius}"">
+            <Position>
+              <RelativeWorldPosition dx=""0.0"" dy=""0.0"" entityRef=""Car"">
+                <Orientation type=""relative"" h=""3.1415"" />
+              </RelativeWorldPosition>
+            </Position>
+          </Clothoid>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+performs a maneuver to connect the trailer to the rear of the vehicle (ConnectTrailer).,"<PrivateAction>
+  <TrailerAction>
+    <ConnectTrailerAction trailerRef=""Trailer"" />
+  </TrailerAction>
+</PrivateAction>"
+changes the speed to $Speedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$Speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"maneuvers (FollowTrajectory) along a curved trajectory with predefined parameters (starting curvature ${-1.0/$TrajRadius}, length 25.0m).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""TrajectoryForward"">
+        <ParameterDeclarations />
+        <Shape>
+          <Clothoid curvature=""${-1.0/$TrajRadius}"" curvatureDot=""0.001"" length=""25.0"">
+            <Position>
+              <RelativeWorldPosition dx=""0.0"" dy=""0.0"" entityRef=""Car"">
+                <Orientation type=""relative"" h=""0.0"" />
+              </RelativeWorldPosition>
+            </Position>
+          </Clothoid>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+performs a maneuver to safely disconnect (DisconnectTrailer) a connected trailer object.,"<PrivateAction>
+  <TrailerAction>
+    <DisconnectTrailerAction />
+  </TrailerAction>
+</PrivateAction>"
+"drives precisely (FollowTrajectory) along a straight line (Polyline) trajectory that moves in order from the opponent lane (dLane=0, dsLane=0) to the opponent lane (dLane=1, dsLane=0), the opponent lane (dLane=1, dsLane=0), and the opponent lane (dLane=0, dsLane=0).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""TrajectoryPLine"">
+        <ParameterDeclarations />
+        <Shape>
+          <Polyline>
+            <Vertex time=""0"">
+              <Position>
+                <RelativeLanePosition dLane=""0"" ds=""0"" entityRef=""Target"" offset=""0.0"" />
+              </Position>
+            </Vertex>
+            <Vertex time=""2"">
+              <Position>
+                <RelativeLanePosition dLane=""1"" ds=""60"" entityRef=""Target"" offset=""0.465"" />
+              </Position>
+            </Vertex>
+            <Vertex time=""4"">
+              <Position>
+                <RelativeLanePosition dLane=""1"" ds=""110"" entityRef=""Target"" offset=""0.465"" />
+              </Position>
+            </Vertex>
+            <Vertex time=""6"">
+              <Position>
+                <RelativeLanePosition dLane=""0"" ds=""165"" entityRef=""Target"" offset=""0"" />
+              </Position>
+            </Vertex>
+          </Polyline>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <Timing domainAbsoluteRelative=""relative"" offset=""0"" scale=""1"" />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+"maneuvers (FollowTrajectory) along a curved trajectory with predefined parameters (starting curvature -0.1, length 70m).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""TrajectoryClothoid"">
+        <ParameterDeclarations />
+        <Shape>
+          <Clothoid curvature=""-0.1"" curvatureDot=""0.00036"" length=""70"" startTime=""0"" stopTime=""4"">
+            <Position>
+              <RelativeRoadPosition dt=""0"" ds=""0"" entityRef=""Target"" />
+            </Position>
+          </Clothoid>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <Timing domainAbsoluteRelative=""relative"" offset=""0"" scale=""1"" />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""follow"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+"drives smoothly (FollowTrajectory) along a smooth NURBS trajectory of order 3 passing from the point of the relative road (ds=0) through the control points of the relative lane (dLane=0, dsLane=0), the relative lane (dLane=-1, dsLane=0), and the relative lane (dLane=-1, dsLane=0).","<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <Trajectory closed=""false"" name=""TrajectoryNurbs"">
+        <ParameterDeclarations />
+        <Shape>
+          <Nurbs order=""3"">
+            <ControlPoint time=""0"" weight=""1"">
+              <Position>
+                <RelativeRoadPosition dt=""0"" ds=""0"" entityRef=""Target"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint time=""3"" weight=""1.2"">
+              <Position>
+                <RelativeLanePosition dLane=""0"" ds=""50"" entityRef=""Target"" offset=""20.0"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint time=""6.7"" weight=""0.7"">
+              <Position>
+                <RelativeLanePosition dLane=""-1"" ds=""100"" entityRef=""Target"" offset=""-10.0"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint time=""9.7"" weight=""1.0"">
+              <Position>
+                <RelativeLanePosition dLane=""-1"" ds=""180"" entityRef=""Target"" offset=""1.535"" />
+              </Position>
+            </ControlPoint>
+            <ControlPoint time=""12.2"" weight=""1.0"">
+              <Position>
+                <RelativeLanePosition dLane=""-1"" ds=""220"" entityRef=""Target"" offset=""0.0"" />
+              </Position>
+            </ControlPoint>
+            <Knot value=""0.0"" />
+            <Knot value=""0.0"" />
+            <Knot value=""0.0"" />
+            <Knot value=""0.3333"" />
+            <Knot value=""0.6667"" />
+            <Knot value=""1.0"" />
+            <Knot value=""1.0"" />
+            <Knot value=""1.0"" />
+          </Nurbs>
+        </Shape>
+      </Trajectory>
+      <TimeReference>
+        <Timing domainAbsoluteRelative=""relative"" offset=""0"" scale=""1"" />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+moves to point 0m in lane 0. based on $owner,"<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeLanePosition entityRef=""$owner"" dLane=""0"" ds=""0"">
+        <Orientation type=""relative"" h=""0.0"" p=""0.0"" r=""0.0"" />
+      </RelativeLanePosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+changes the speed linearly to ${$InitialSpeed ​​+ 10}m/s over 3.0 seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""3.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$InitialSpeed + 10}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to the left lane of Ego.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""cubic"" value=""3.5"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""1"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to Ego’s lane.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""cubic"" value=""2.5"" dynamicsDimension=""time"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""0"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the -1st lane of road 0 (s=$_Ego_syncS). its driving speed with the absolute speed $_GVT_speedm/s so that it reaches the 1st lane of road 0 (s=$_GVT_syncS).,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""$_Ego_syncS"" />
+    </TargetPositionMaster>
+    <TargetPosition>
+      <LanePosition roadId=""0"" laneId=""1"" s=""$_GVT_syncS"" offset=""$GVT_latDist"">
+        <Orientation h=""${pi}"" />
+      </LanePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_GVT_speed"">
+        <TargetTimeSteadyState time=""${$startupTime/2}"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+performs a routing maneuver that strictly follows the designated trajectory ('$Trajectory_catalogEntry') defined in the catalog (FollowTrajectory).,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TimeReference>
+        <None />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+      <TrajectoryRef>
+        <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""$Trajectory_catalogEntry"" />
+      </TrajectoryRef>
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+changes the speed to $_GVT_speedm/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""step"" value=""0"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$_GVT_speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the trajectory 'Ego_CxTx' (s=$_Ego_syncS). its driving speed with the absolute speed $_Target_finalSpeedm/s to reach the trajectory 'Target_straightAcross' (s=$_Target_syncS).,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <TrajectoryPosition s=""$_Ego_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CxTx"">
+            <ParameterAssignments>
+              <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa1}"" parameterRef=""kappa1"" />
+              <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa2}"" parameterRef=""kappa2"" />
+              <ParameterAssignment value=""$_Trajectory_clothoidLength"" parameterRef=""clothoidLength"" />
+              <ParameterAssignment value=""$_Trajectory_arcLength"" parameterRef=""arcLength"" />
+              <ParameterAssignment value=""$_Ego_initS"" parameterRef=""start_s"" />
+              <ParameterAssignment value=""$_Trajectory_straightLength"" parameterRef=""straight_length"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <TrajectoryPosition s=""$_Target_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Target_straightAcross"">
+                          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_Target_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$Target_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+maintains $GVT_headwaym distance from Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction freespace=""true"" continuous=""false"" entityRef=""Ego"" distance=""$GVT_headway"" displacement=""leadingReferencedEntity"" coordinateSystem=""entity"" />
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to ${$_GVT_final_speed}m/s linearly at a rate of $GVT_decelerationm/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""rate"" dynamicsShape=""linear"" value=""$GVT_deceleration"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$_GVT_final_speed}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the path 'Ego_Intersection'. its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the path 'VRU_Intersection_Farside'.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""Ego_Intersection"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointBQ-$_Ego_frontBumperLon}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Farside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointAQ-$VRU_collisionPointOffset}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+changes the speed linearly to $_VRU_finalSpeedm/s over ${2*$VRU_accelerationDist/$_VRU_finalSpeed} seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""linear"" value=""${2*$VRU_accelerationDist/$_VRU_finalSpeed}"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$_VRU_finalSpeed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the path 'Ego_Intersection'. its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the path 'VRU_Intersection_Nearside'.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""Ego_Intersection"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointBM-$_Ego_frontBumperLon}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Nearside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointAM-$VRU_collisionPointOffset}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the path 'Ego_Intersection'. its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the path 'VRU_Intersection_Nearside'.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""Ego_Intersection"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointBE-$_Ego_frontBumperLon}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Nearside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointAE-$VRU_collisionPointOffset}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+sets at the point when the master object (Ego) reaches the -1 lane of road 0 (s=${$_VRU_initS-$_Ego_frontBumperLon-$VRU_width/2}). its absolute speed to reach the trajectory 'VRU_CPx' (s=${$VRU_initLatDist+$_Ego_impactPointOffset-$VRU_collisionPointOffset}). Synchronize the driving speed with $_VRU_finalSpeedm/s.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""${$_VRU_initS-$_Ego_frontBumperLon-$VRU_width/2}"" />
+    </TargetPositionMaster>
+    <TargetPosition>
+      <TrajectoryPosition s=""${$VRU_initLatDist+$_Ego_impactPointOffset-$VRU_collisionPointOffset}"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CPx"">
+            <ParameterAssignments>
+              <ParameterAssignment value=""$_VRU_initS"" parameterRef=""VRU_initS"" />
+              <ParameterAssignment value=""${-$VRU_initLatDist}"" parameterRef=""VRU_latDist"" />
+              <ParameterAssignment value=""$VRU_trajectoryOrientation"" parameterRef=""trajectoryOrientation"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""${$VRU_initLatDist-$VRU_accelerationDist}"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the trajectory 'Ego_CPRx' (s=$_Ego_syncS). its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the trajectory 'VRU_CPRx' (s=${$VRU_collisionDist-$VRU_collisionPointOffset}).,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <TrajectoryPosition s=""$_Ego_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CPRx"">
+            <ParameterAssignments>
+              <ParameterAssignment parameterRef=""start_S"" value=""${$collisionPoint_S+$Ego_initDist}"" />
+              <ParameterAssignment parameterRef=""roadID"" value=""0"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <TrajectoryPosition s=""${$VRU_collisionDist-$VRU_collisionPointOffset}"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CPRx"">
+            <ParameterAssignments>
+              <ParameterAssignment parameterRef=""start_t"" value=""${-1*$VRU_collisionDist}"" />
+              <ParameterAssignment parameterRef=""start_s"" value=""$collisionPoint_S"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$_VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the trajectory 'Ego_CxTx' (s=$_Ego_syncS). its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the trajectory 'VRU_CxTfx' (s=$_VRU_syncS).,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <TrajectoryPosition s=""$_Ego_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CxTx"">
+            <ParameterAssignments>
+              <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa1}"" parameterRef=""kappa1"" />
+              <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa2}"" parameterRef=""kappa2"" />
+              <ParameterAssignment value=""$_Trajectory_clothoidLength"" parameterRef=""clothoidLength"" />
+              <ParameterAssignment value=""$_Trajectory_arcLength"" parameterRef=""arcLength"" />
+              <ParameterAssignment value=""$_Ego_initS"" parameterRef=""start_s"" />
+              <ParameterAssignment value=""$_Trajectory_straightLength"" parameterRef=""straight_length"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <TrajectoryPosition s=""$_VRU_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CxTfx"">
+            <ParameterAssignments>
+              <ParameterAssignment value=""$Road_laneWidth"" parameterRef=""laneWidth"" />
+              <ParameterAssignment value=""$Road_armLength"" parameterRef=""armLength"" />
+              <ParameterAssignment value=""$Road_radius"" parameterRef=""roadRadius"" />
+              <ParameterAssignment value=""$_Trajectory_tStart"" parameterRef=""tStart"" />
+              <ParameterAssignment value=""${$VRU_centerlineOffset*$Ego_turningDirection}"" parameterRef=""centerlineOffset"" />
+              <ParameterAssignment value=""$VRU_trajectoryDirection"" parameterRef=""trajectoryOrientation"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$_VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the path 'Ego_Intersection'. its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the path 'VRU_Intersection_Farside'.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""Ego_Intersection"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointBQ-$_Ego_frontBumperLon}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Farside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointAQ-$_collisionPoint_impactPointOffset-$VRU_collisionPointOffset}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+changes the speed linearly to $_Target_final_speedm/s over ${2*$Target_accelerationDist/$_Target_final_speed} seconds.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""time"" dynamicsShape=""linear"" value=""${2*$Target_accelerationDist/$_Target_final_speed}"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""$_Target_final_speed"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+turns on the vehicle's low beam.,"<PrivateAction>
+  <AppearanceAction>
+    <LightStateAction>
+      <LightType>
+        <VehicleLight vehicleLightType=""lowBeam"" />
+      </LightType>
+      <LightState mode=""on"" />
+    </LightStateAction>
+  </AppearanceAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the path 'Ego_Intersection'. its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the path 'VRU_Intersection_Nearside'.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""Ego_Intersection"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointBE-$_Ego_frontBumperLon}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Nearside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointAE+$_collisionPoint_impactPointOffset-$VRU_collisionPointOffset}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the path 'Ego_Intersection'. its driving speed with the absolute speed $_VRU_finalSpeedm/s to reach the path 'VRU_Intersection_Nearside'.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""Ego_Intersection"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointBM-$_Ego_frontBumperLon}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <RoutePosition>
+        <RouteRef>
+          <CatalogReference catalogName=""RouteCatalog"" entryName=""VRU_Intersection_Nearside"" />
+        </RouteRef>
+        <InRoutePosition>
+          <FromRoadCoordinates t=""0"" pathS=""${$_Road_collisionPointAM+$_collisionPoint_impactPointOffset-$VRU_collisionPointOffset}"" />
+        </InRoutePosition>
+      </RoutePosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$VRU_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the trajectory 'Ego_CxCscp' (s=$_Ego_syncS). its driving speed with the absolute speed $_Target_final_speedm/s to reach the trajectory '$Target_trajectory' (s=$_Target_syncS).,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <TrajectoryPosition s=""$_Ego_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CxCscp"" />
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <TrajectoryPosition s=""$_Target_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""$Target_trajectory"" />
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_Target_final_speed"">
+        <TargetTimeSteadyState time=""$Target_steadyStateTTC"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+synchronizes at the point when the master object (Ego) reaches the trajectory 'Ego_CxTx' (s=$_Ego_syncS). its driving speed with the absolute speed $_Target_finalSpeedm/s to reach the trajectory 'Target_straightAcross' (s=$_Target_syncS).,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <TrajectoryPosition s=""$_Ego_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Ego_CxTx"">
+            <ParameterAssignments>
+              <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa1}"" parameterRef=""kappa1"" />
+              <ParameterAssignment value=""${$Ego_turningDirection*$_Trajectory_kappa2}"" parameterRef=""kappa2"" />
+              <ParameterAssignment value=""$_Trajectory_clothoidLength"" parameterRef=""clothoidLength"" />
+              <ParameterAssignment value=""$_Trajectory_arcLength"" parameterRef=""arcLength"" />
+              <ParameterAssignment value=""$_Ego_initS"" parameterRef=""start_s"" />
+              <ParameterAssignment value=""$_Trajectory_straightLength"" parameterRef=""straight_length"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPositionMaster>
+    <TargetPosition>
+      <TrajectoryPosition s=""$_Target_syncS"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""Target_straightAcross"" />
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_Target_finalSpeed"">
+        <TargetDistanceSteadyState distance=""$Target_steadyStateDist"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+flashes the left turn signal of the vehicle.,"<PrivateAction>
+  <AppearanceAction>
+    <LightStateAction>
+      <LightType>
+        <VehicleLight vehicleLightType=""indicatorLeft"" />
+      </LightType>
+      <LightState mode=""flashing"" />
+    </LightStateAction>
+  </AppearanceAction>
+</PrivateAction>"
+performs the operation to turn off the left turn signal of the vehicle.,"<PrivateAction>
+  <AppearanceAction>
+    <LightStateAction>
+      <LightType>
+        <VehicleLight vehicleLightType=""indicatorLeft"" />
+      </LightType>
+      <LightState mode=""off"" />
+    </LightStateAction>
+  </AppearanceAction>
+</PrivateAction>"
+maintains $_Target_headwaym distance from Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <LongitudinalDistanceAction freespace=""true"" continuous=""false"" entityRef=""Ego"" distance=""$_Target_headway"" displacement=""leadingReferencedEntity"" coordinateSystem=""entity"" />
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to ${$_Target_final_speed}m/s linearly at a rate of $Target_decelerationm/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsDimension=""rate"" dynamicsShape=""linear"" value=""$Target_deceleration"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$_Target_final_speed}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+sets at the point when the master object (Ego) reaches the -1st lane of road 0 (s=${$VRU_initS-$_Ego_frontBumperLon-$VRU_width/2}). its absolute speed to reach the trajectory 'VRU_CPx' (s=${$VRU_initLatDist+$_Ego_impactPointOffset-$VRU_collisionPointOffset}). Synchronize the driving speed with $_VRU_finalSpeedm/s.,"<PrivateAction>
+  <SynchronizeAction masterEntityRef=""Ego"">
+    <TargetPositionMaster>
+      <LanePosition roadId=""0"" laneId=""-1"" s=""${$VRU_initS-$_Ego_frontBumperLon-$VRU_width/2}"" />
+    </TargetPositionMaster>
+    <TargetPosition>
+      <TrajectoryPosition s=""${$VRU_initLatDist+$_Ego_impactPointOffset-$VRU_collisionPointOffset}"">
+        <TrajectoryRef>
+          <CatalogReference catalogName=""TrajectoryCatalog"" entryName=""VRU_CPx"">
+            <ParameterAssignments>
+              <ParameterAssignment value=""$VRU_initS"" parameterRef=""VRU_initS"" />
+              <ParameterAssignment value=""${-$VRU_initLatDist}"" parameterRef=""VRU_latDist"" />
+              <ParameterAssignment value=""$VRU_trajectoryOrientation"" parameterRef=""trajectoryOrientation"" />
+            </ParameterAssignments>
+          </CatalogReference>
+        </TrajectoryRef>
+      </TrajectoryPosition>
+    </TargetPosition>
+    <FinalSpeed>
+      <AbsoluteSpeed value=""$_VRU_finalSpeed"">
+        <TargetDistanceSteadyState distance=""${$VRU_initLatDist-$VRU_accelerationDist}"" />
+      </AbsoluteSpeed>
+    </FinalSpeed>
+  </SynchronizeAction>
+</PrivateAction>"
+changes the speed to 8m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""15.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""8"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+"moves near the reference object coordinates (dx:0.0, dy:0.0).","<PrivateAction>
+  <TeleportAction>
+    <Position>
+      <RelativeObjectPosition entityRef=""__pedestrianPedestrian"" dx=""0.0"" dy=""0.0"" dz=""0.0"">
+        <Orientation h=""2.0"" p=""0.0"" r=""0.0"" />
+      </RelativeObjectPosition>
+    </Position>
+  </TeleportAction>
+</PrivateAction>"
+changes the speed to 6m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""15.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""6"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 5m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""15.0"" dynamicsDimension=""distance"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""5"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to the left lane of cutInCar.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction targetLaneOffset=""0.0"">
+      <LaneChangeActionDynamics dynamicsShape=""step"" value=""22.0"" dynamicsDimension=""distance"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane value=""1"" entityRef=""___cutInCar"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to the right lane of cutInCar.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction targetLaneOffset=""0.0"">
+      <LaneChangeActionDynamics dynamicsShape=""step"" value=""22.0"" dynamicsDimension=""distance"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane value=""-1"" entityRef=""___cutInCar"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed to 16.6666m/s.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""step"" value=""0.0"" dynamicsDimension=""time"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""16.6666"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to the left lane of indiv__cutInCar.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction targetLaneOffset=""0.0"">
+      <LaneChangeActionDynamics dynamicsShape=""step"" value=""22.0"" dynamicsDimension=""distance"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane value=""1"" entityRef=""indiv__cutInCar"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes to the right lane of indiv__cutInCar.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction targetLaneOffset=""0.0"">
+      <LaneChangeActionDynamics dynamicsShape=""step"" value=""22.0"" dynamicsDimension=""distance"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane value=""-1"" entityRef=""indiv__cutInCar"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+activates longitudinal and lateral controllers.,"<PrivateAction>
+  <ControllerAction>
+    <ActivateControllerAction lateral=""true"" longitudinal=""true"" />
+  </ControllerAction>
+</PrivateAction>"
+drives with an offset of $Swerve_Offset_Left_mm based on the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""false"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$Swerve_MaxLateralAcc_mps2"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$Swerve_Offset_Left_m"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of 0.0m from the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""false"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$Swerve_MaxLateralAcc_mps2"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""0.0"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $Swerve_Offset_Right_mm based on the road.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""false"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$Swerve_MaxLateralAcc_mps2"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <AbsoluteTargetLaneOffset value=""$Swerve_Offset_Right_m"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"
+drives precisely (FollowTrajectory) along a straight line (Polyline) trajectory that moves in order from the $Ego_InitPosition_LaneId lane (s=$TargetBlocking_InitPosition_LongitudinalOffset_m) point on road 0 to the $Ego_InitPosition_LaneId lane (s=$TargetBlocking_InitPosition_LongitudinalOffset_m) point on road 0..,"<PrivateAction>
+  <RoutingAction>
+    <FollowTrajectoryAction>
+      <TrajectoryRef>
+        <Trajectory name=""CrossTrajectory"" closed=""false"">
+          <Shape>
+            <Polyline>
+              <Vertex time=""0"">
+                <Position>
+                  <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""$TargetBlocking_InitPosition_LateralOffset_m"" s=""$TargetBlocking_InitPosition_LongitudinalOffset_m"">
+                    <Orientation h=""$TargetBlocking_InitPosition_Heading_rad"" />
+                  </LanePosition>
+                </Position>
+              </Vertex>
+              <Vertex time=""${2 * sqrt( $TargetBlocking_InitPosition_LateralOffset_m * $TargetBlocking_InitPosition_LateralOffset_m ) / ($TargetBlocking_Speed_kph / 3.6)}"">
+                <Position>
+                  <LanePosition roadId=""0"" laneId=""$Ego_InitPosition_LaneId"" offset=""${-$TargetBlocking_InitPosition_LateralOffset_m}"" s=""$TargetBlocking_InitPosition_LongitudinalOffset_m"">
+                    <Orientation h=""$TargetBlocking_InitPosition_Heading_rad"" />
+                  </LanePosition>
+                </Position>
+              </Vertex>
+            </Polyline>
+          </Shape>
+        </Trajectory>
+      </TrajectoryRef>
+      <TimeReference>
+        <Timing domainAbsoluteRelative=""relative"" scale=""1.0"" offset=""0.0"" />
+      </TimeReference>
+      <TrajectoryFollowingMode followingMode=""position"" />
+    </FollowTrajectoryAction>
+  </RoutingAction>
+</PrivateAction>"
+changes the speed to a speed that is $LeadVehicle_VaryingSpeed_Positive_Offset_mps different than Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""$LeadVehicle_VaryingSpeed_Rate_mps2"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Ego"" value=""$LeadVehicle_VaryingSpeed_Positive_Offset_mps"" speedTargetValueType=""delta"" continuous=""false"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to a speed that is $LeadVehicle_VaryingSpeed_Negative_Offset_mps different than Ego.,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""$LeadVehicle_VaryingSpeed_Rate_mps2"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <RelativeTargetSpeed entityRef=""Ego"" value=""$LeadVehicle_VaryingSpeed_Negative_Offset_mps"" speedTargetValueType=""delta"" continuous=""false"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes the speed to 0.0m/s linearly at a rate of $LeadVehicle_Deceleration_Rate_mps2m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""$LeadVehicle_Deceleration_Rate_mps2"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""0.0"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to Ego’s lane.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""$CutInVehicle_LaneChange_MaxLateralVelocity_Vy_mps"" dynamicsDimension=""rate"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""Ego"" value=""0"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+changes the speed linearly to ${$CutInVehicle_Acceleration_Target_kph / 3.6}m/s at a rate of $CutInVehicle_Acceleration_Rate_mps2m/s².,"<PrivateAction>
+  <LongitudinalAction>
+    <SpeedAction>
+      <SpeedActionDynamics dynamicsShape=""linear"" value=""$CutInVehicle_Acceleration_Rate_mps2"" dynamicsDimension=""rate"" />
+      <SpeedActionTarget>
+        <AbsoluteTargetSpeed value=""${$CutInVehicle_Acceleration_Target_kph / 3.6}"" />
+      </SpeedActionTarget>
+    </SpeedAction>
+  </LongitudinalAction>
+</PrivateAction>"
+changes to the $CutOutVehicle_RelativeTargetLane lane of TargetBlocking.,"<PrivateAction>
+  <LateralAction>
+    <LaneChangeAction>
+      <LaneChangeActionDynamics dynamicsShape=""sinusoidal"" value=""$CutOutVehicle_LaneChange_MaxLateralVelocity_Vy_mps"" dynamicsDimension=""rate"" />
+      <LaneChangeTarget>
+        <RelativeTargetLane entityRef=""TargetBlocking"" value=""$CutOutVehicle_RelativeTargetLane"" />
+      </LaneChangeTarget>
+    </LaneChangeAction>
+  </LateralAction>
+</PrivateAction>"
+drives with an offset of $SideVehicle_FinalLateralOffset_mm based on Ego.,"<PrivateAction>
+  <LateralAction>
+    <LaneOffsetAction continuous=""false"">
+      <LaneOffsetActionDynamics maxLateralAcc=""$Swerve_MaxLateralAcc_mps2"" dynamicsShape=""sinusoidal"" />
+      <LaneOffsetTarget>
+        <RelativeTargetLaneOffset entityRef=""Ego"" value=""$SideVehicle_FinalLateralOffset_m"" />
+      </LaneOffsetTarget>
+    </LaneOffsetAction>
+  </LateralAction>
+</PrivateAction>"

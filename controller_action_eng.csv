@@ -1,0 +1,9 @@
+﻿excel_row_number,english_description,korean_description
+18,Activate longitudinal and lateral controllers.,종방향/횡방향 컨트롤러를 활성화한다.
+40,Set 'sloppyDriver' controller.,'sloppyDriver' 컨트롤러를 설정한다.
+41,Activate lateral controller.,횡방향 컨트롤러를 활성화한다.
+42,Set 'interactiveDriver' controller.,'interactiveDriver' 컨트롤러를 설정한다.
+43,Activate longitudinal controller.,종방향 컨트롤러를 활성화한다.
+44,Set 'sloppyDriver' controller.,'sloppyDriver' 컨트롤러를 설정한다.
+45,Deactivate longitudinal and lateral controllers.,종/횡방향 컨트롤러를 모두 비활성화한다.
+156,Activate longitudinal and lateral controllers.,종방향/횡방향 컨트롤러를 활성화한다.
