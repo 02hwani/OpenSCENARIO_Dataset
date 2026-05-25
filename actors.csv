@@ -5,7 +5,6 @@ vehicle is,"<Actors selectTriggeringEntities=""false"">
 adversary is,"<Actors selectTriggeringEntities=""false"">
   <EntityRef entityRef=""adversary"" />
 </Actors>"
-,"<Actors selectTriggeringEntities=""false"" />"
 hero is,"<Actors selectTriggeringEntities=""false"">
   <EntityRef entityRef=""hero"" />
 </Actors>"
@@ -86,8 +85,6 @@ GVT is,"<Actors selectTriggeringEntities=""false"">
 </Actors>"
 SOV is,"<Actors selectTriggeringEntities=""false"">
   <EntityRef entityRef=""SOV"" />
-</Actors>"
-,"<Actors selectTriggeringEntities=""false"">
 </Actors>"
 VRU is,"<Actors selectTriggeringEntities=""false"">
   <EntityRef entityRef=""VRU"" />
